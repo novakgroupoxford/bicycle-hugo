@@ -1,3 +1,288 @@
-baseurl = "http://example.org/"
-title = "My New Hugo Site"
+# Site settings
+baseurl = "https://example.org/"
 languageCode = "en-us"
+title = "BBSRC Bistability of Cell Cycle Transitions Project"
+theme = "hugo-agency-theme"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[taxonomies]
+  group = "groups"
+  university = "universities"
+  role = "roles"
+  author = "authors"
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "Your name"
+  description = "Your description"
+
+  # Since this template is static, the contact form uses www.formspree.io as a
+  # proxy. The form makes a POST request to their servers to send the actual
+  # email. Visitors can send up to a 1000 emails each month for free.
+  #
+  # What you need to do for the setup?
+  #
+  # - set your email address under 'email' below
+  # - upload the generated site to your server
+  # - send a dummy email yourself to confirm your account
+  # - click the confirm link in the email from www.formspree.io
+  # - you're done. Happy mailing!
+
+  # It is possible to substitute formspring with other providers
+  # as an example the mailout plugin from caddy.
+  # Provide the post URL for the form and depending on the provider
+  # add some custom JS script to finish the implementation.
+  # postURL = "https://example.com/mailout/"
+
+  email = "your@email.com"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "bicycle"
+    # Optional logo as brand stored in img/
+    logo = "bi-cycle.png"
+    services = "Resources"
+    portfolio = "Who We Are"
+    about = "Timeline"
+    contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    # [[menu.postpend]]
+    #   url = "http://gohugo.io"
+    #   name = "External link"
+    #   weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "BBSRC Bicycle Project:"
+    subtitle = "Bistability of Cell Cycle Transitions"
+    buttonText = "Resources"
+
+  # Services section
+  [params.publications]
+    enable = true
+    title = "Publications"
+    subtitle = "Peer-reviewed publications published in the context of this project"
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Resources"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      icon = "fa-file-text-o"
+      title = "Publications"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "/publication/"
+
+    [[params.services.row.list]]
+      icon = "fa-laptop"
+      title = "Code and Computational Tools"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "/resource/code/"
+
+    [[params.services.row.list]]
+      icon = "fa-picture-o"
+      title = "Stories, Images"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+  # Portfolio section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "About us"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+    [params.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+
+
+    # About section
+  [params.about]
+    enable = true
+    title = "Project Timeline"
+    subtitle = ""
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "kickoff.jpg"
+      date = "December 2014"
+      title = "Project Kick-Off"
+      description = ""
+
+    [[params.about.events]]
+      img = "2.jpg"
+      date = "March 2011"
+      title = "An Agency is Born"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "3.jpg"
+      date = "December 2012"
+      title = "Our Humble Beginnings"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "jcb.png"
+      date = "August 2016"
+      title = "New Paper in The Journal of Cell Biology"
+      description = "The paper **A PP2A-B55 recognition signal controls substrate dephosphorylation kinetics during mitotic exit** is now available on-line and in print. Authors: *Michael J. Cundell, Lukas H. Hutter, Ricardo Nunes Bastos, Elena Poser, James Holder, Shabaz Mohammed, Bela Novak and Francis A. Barr*."
+
+
+  # Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Who we are"
+    subtitle = "The team behind the bicycle project"
+    description = ""
+
+
+  # Client section
+    [params.clients_list]
+      enable = true
+      # Possibility to center items
+      center = true
+      # Optional client title specifying the involvement
+      #title = "Used and trusted by"
+
+      # All the clients' logos are stored under 'static/img/logos'.
+      # Replace them with your clients's logos.
+      # Suggestion: .svg in the size of 280px*80px looks good
+      [[params.clients]]
+        logo = "oxford_logo.png"
+        link = "http://www.ox.ac.uk"
+
+      [[params.clients]]
+        logo = "sussex_logo.png"
+        link = "http://www.ox.ac.uk"
+
+      [[params.clients]]
+        logo = "icr_logo.png"
+        link = "http://www.ox.ac.uk"
+
+  # Contact section
+  [params.contact]
+    enable = false
+    title = "Contact us"
+    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    buttonText = "Send message"
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Your Name *"
+      warning = "Please enter your name."
+
+    [params.contact.form.email]
+      text = "Your Email *"
+      warning = "Please enter your email address."
+
+    [params.contact.form.phone]
+      text = "Your Phone *"
+      warning = "Please enter your phone number."
+
+    [params.contact.form.message]
+      text = "Your Message *"
+      warning = "Please enter a message."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.icons]
+    twitter = "fa fa-twitter"
+    googlescholar = "ai ai-google-scholar"
+    researchgate = "ai ai-researchgate"
+    linkedin = "fa fa-linkedin"
+    github = "fa fa-github"
+    website = "fa fa-globe"
+
+
+  [params.footer]
+    enable = true
+    copyright = "Published under the Apache License 2.0."
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "#"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "#"
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      link = "#"
+
+    [[params.footer.quicklinks]]
+      text = "Privacy Policy"
+      link = "#"
+
+    [[params.footer.quicklinks]]
+      text = "Terms of Use"
+      link = "#"

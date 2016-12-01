@@ -1,0 +1,12 @@
+{{ partial "header" .}}
+  h1 {{.Title}}
+  #container.wrapper
+    p..
+      Ace is an HTML template engine for Go.
+      This engine simplifies HTML coding in Go web application development.
+    ul {{ range  .Site.Pages }}
+      li {{ .Title }}
+    {{end}}
+
+  = javascript
+    console.log('Welcome to Ace');
