@@ -2,7 +2,7 @@
 baseurl = "https://example.org/"
 languageCode = "en-us"
 title = "BBSRC Bistability of Cell Cycle Transitions Project"
-theme = "hugo-agency-theme"
+theme = "bicycle"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
