@@ -1,0 +1,24 @@
+{{ "<!-- Portfolio Grid Section -->" | safeHTML }}
+<div class="col-md-4 col-sm-6 col portfolio-item">
+  <a href="/member/{{ .Page.Title }}/" class="portfolio-link" data-toggle="modal" style="margin-bottom:-20px">
+    <div class="portfolio-hover">
+      <div class="portfolio-hover-content">
+        <i class="fa fa-plus fa-3x"></i>
+      </div>
+    </div>
+    <img src="img/member/{{ .Page.Params.img }}" style="margin:auto;height:200px;width:200px" class="img-responsive img-circle " alt="">
+  </a>
+  <div class="portfolio-caption" >
+    <h3>{{ .Page.Params.name | markdownify }}</h3>
+    <h4>{{ delimit .Page.Params.roles ", " }}</h4>
+    {{ if not (in .Page.Params.groups "") }}
+      <h6 class="report">
+        {{ delimit .Page.Params.groups ", " }}-Group, {{ delimit .Page.Params.universities ", " }}
+      </h6>
+    {{ else }}
+      <h6 class="report">
+        {{ delimit .Page.Params.universities ", " }}
+      </h6>
+    {{ end }}
+  </div>
+</div>

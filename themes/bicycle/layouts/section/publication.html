@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+  {{ partial "head.html" . }}
+
+  <body id="page-top" class="index">
+    {{ partial "nav.html" . }}
+
+    <section id="publications">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">{{ with .Site.Params.publications.title }}{{ . }}{{ end }}</h2>
+            <h3 class="section-subheading text-muted">{{ with .Site.Params.publications.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <ul class="timeline">
+
+            {{ range $i, $e := .Data.Pages }}
+              <li class="timeline-inverted">
+
+                <div class="timeline-image">
+                    <img class="img-circle img-responsive" src="{{ .Site.BaseURL }}/img/publication/{{ $e.Params.img }}" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h6 class="subheading">{{ dateFormat "Monday, Jan 2, 2006" $e.Date }}</h6>
+                    <h5 class="subheading">{{ $e.Params.journal }}</h5>
+                    <h4>{{ $e.Title }}</h4>
+                    <h5 class="subheading">
+                      {{ delimit $e.Params.authors ", " }}
+                    </h5>
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://dx.doi.org/{{ $e.Params.doi }}" target="_blank" title="Visit publisher website"><i class="ai ai-doi"></i></a></li>
+                        <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term={{ $e.Params.doi }}" target="_blank" title="Search article in pubmed"><i class="ai ai-pubmed"></i></a></li>
+                        {{ if ne $e.Params.github "" }}
+                          <li><a href="{{ $e.Params.github }}" target="_blank" title="View Code Resource on Github"><i class="fa fa-github"></i></a></li>
+                        {{ end }}
+                    </ul>
+                    <p class="abstract">
+                      {{ $e.Params.abstract | markdownify }}
+                    </p>
+                  </div>
+                </div>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- {{ if .Site.Params.portfolio.enable }}
+      {{ partial "modals.html" . }}
+    {{ end }} -->
+
+    {{ partial "js.html" . }}
+  </body>
+</html>
