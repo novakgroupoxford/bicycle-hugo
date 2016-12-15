@@ -39,32 +39,11 @@
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
               <ul class="timeline">
-                {{ range $i,$e := .Site.Sections.publication }}
-                  {{ $e := $e.Page }}
-                  {{ if in $e.Params.authors $name }}
-                    <li class="timeline-inverted">
-                     <div class="timeline-image">
-                       <img class="img-circle img-responsive" src="{{ $.Site.BaseURL }}/img/publication/{{ $e.Params.img }}" alt="">
-                     </div>
-                     <div class="timeline-panel">
-                       <div class="timeline-heading">
-                         <h6 class="subheading">{{ dateFormat "Monday, Jan 2, 2006" $e.Date }}</h6>
-                         <h5 class="subheading">{{ $e.Params.journal }}</h5>
-                         <h4>{{ $e.Title }}</h4>
-                         <h5 class="subheading">
-                           {{ delimit $e.Params.authors ", " }}
-                         </h5>
-                         <ul class="list-inline social-buttons">
-                             <li><a href="https://dx.doi.org/{{ $e.Params.doi }}" target="_blank" title="Visit publisher website"><i class="ai ai-doi"></i></a></li>
-                             <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term={{ $e.Params.doi }}" target="_blank" title="Search article in pubmed"><i class="ai ai-pubmed"></i></a></li>
-                             {{ if ne $e.Params.github "" }}
-                               <li><a href="{{ $e.Params.github }}" target="_blank" title="View Code Resource on Github"><i class="fa fa-github"></i></a></li>
-                             {{ end }}
-                         </ul>
-                       </div>
-                     </div>
-                    </li>
-                   {{ end }}
+                {{ range $i, $publication := $.Site.Sections.publication }}
+                  {{ $data := (slice $publication.Page $.Site.BaseURL "no_abstract")}}
+                  {{ if in $publication.Page.Params.authors $name }}
+                    {{ partial "publication.html" $data }}
+                  {{ end }}
                 {{ end }}
               </ul>
             </div>
