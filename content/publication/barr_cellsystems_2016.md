@@ -1,6 +1,6 @@
 +++
 title = "A Dynamical Framework for the All-or-None G1/S Transition"
-date = "2016-01-28"
+date = "2016-01-27"
 doi = "10.1016/j.cels.2016.01.001"
 img = "barr_cellsystems_2016.jpg"
 github=""
