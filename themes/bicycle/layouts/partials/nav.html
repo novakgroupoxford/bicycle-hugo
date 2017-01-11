@@ -34,6 +34,18 @@
           </li>
         {{ end }}
 
+        {{ if .Site.Params.about.enable }}
+        <li>
+          <a {{ if .IsHome }} http://localhost:1313/#portfolio {{ end }} href="{{ .Site.BaseURL }}#about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
+        </li>
+        {{ end }}
+
+        {{ if .Site.Params.team.enable }}
+        <li>
+          <a {{ if .IsHome }} http://localhost:1313/#portfolio {{ end }} href="{{ .Site.BaseURL }}#team">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
+        </li>
+        {{ end }}
+
         {{ if .Site.Params.services.enable }}
           <li>
             <a {{ if .IsHome }} http://localhost:1313/#portfolio {{ end }} href="{{ .Site.BaseURL }}#services">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
@@ -46,23 +58,19 @@
           </li>
         {{ end }}
 
-        {{ if .Site.Params.about.enable }}
-          <li>
-            <a {{ if .IsHome }} http://localhost:1313/#portfolio {{ end }} href="{{ .Site.BaseURL }}#about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
-          </li>
-        {{ end }}
 
-        {{ if .Site.Params.team.enable }}
-          <li>
-            <a {{ if .IsHome }} http://localhost:1313/#portfolio {{ end }} href="{{ .Site.BaseURL }}#team">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
-          </li>
-        {{ end }}
 
         {{ if .Site.Params.contact.enable }}
           <li>
             <a {{ if .IsHome }} http://localhost:1313/#portfolio {{ end }} href="{{ .Site.BaseURL }}#contact">{{ with .Site.Params.navigation.contact }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
+        <li>
+          <a href="{{ .Site.BaseURL }}member">Members</a>
+        </li>
+        <li>
+          <a href="{{ .Site.BaseURL }}publication">Publications</a>
+        </li>
 
         {{ range .Site.Menus.postpend }}
           <li>

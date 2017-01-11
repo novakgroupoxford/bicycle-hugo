@@ -10,6 +10,9 @@
     <!-- {{ if .Site.Params.clients_list.enable }}
       {{ partial "clients.html" . }}
     {{ end }} -->
+    {{ if .Site.Params.about.enable }}
+    {{ partial "about.html" . }}
+    {{ end }}
 
     {{ if .Site.Params.team.enable }}
       {{ partial "team.html" . }}
@@ -24,9 +27,6 @@
       {{ partial "portfolio.html" . }}
     {{ end }} -->
 
-    {{ if .Site.Params.about.enable }}
-      {{ partial "about.html" . }}
-    {{ end }}
 
     {{ if .Site.Params.contact.enable }}
       {{ partial "contact.html" . }}
