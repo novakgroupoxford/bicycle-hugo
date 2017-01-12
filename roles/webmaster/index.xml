@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webmaster on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>https://novakgroupoxford.github.io/bicycle-hugo/roles/webmaster/index.xml</link>
+    <description>Recent content in Webmaster on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://novakgroupoxford.github.io/bicycle-hugo/roles/webmaster/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>lukas_hutter</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/lukas_hutter/</link>
+      <pubDate>Tue, 29 Nov 2016 14:08:48 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/lukas_hutter/</guid>
+      <description>&lt;p&gt;I am a DPhil student in my third year and working on the meta/ana transition and mitotic exit.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
