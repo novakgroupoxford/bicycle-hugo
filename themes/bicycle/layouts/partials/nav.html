@@ -25,7 +25,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden">
-          <a href="#page-top"></a>
+          <a {{ if .IsHome }} http://localhost:1313/#page-top {{ end }} href="{{ .Site.BaseURL }}#page-top">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}></a>
         </li>
 
         {{ range .Site.Menus.prepend }}
