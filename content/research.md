@@ -3,7 +3,6 @@ categories = []
 tags = []
 date = "2017-01-12T14:47:12+01:00"
 title = "Our Research"
-
 +++
 # Our Research
 
@@ -26,7 +25,7 @@ Our view of eukaryotic cell cycle control is based on years of experience modell
 
 According to our working hypothesis, mammalian cell cycle progression is driven by a **series of bistable switches** connected in a linear sequence (Fig.4). The activators of early cell cycle transitions (from the Restriction Point to the G2/M transition) belong to the Cyclin-dependent protein-kinase (**Cdk**) family (Cdk1, Cdk2, Cdk4, Cdk6 etc.) in complex with their regulatory **Cyclin** subunits (Cyclin-A, -B, -D, -E etc.). During the cell cycle, Cdks are periodically associated with their activating Cyclins whose levels are determined by transcription factors (e.g. E2F) and degradation machineries (ubiquitin-ligases: SCF and APC/C). The activity of Cdk:Cyclin complexes is subject to additional controls by stoichiometric Cdk inhibtors (e.g. p27<sup>Kip1</sup>), inhibitory phosphorylations modulated by Wee1-kinases and Cdc25-phosphatases. The different activators and inhibitors of mammalian cell cycle transitions are summarised in the Table and the experimental evidence for potential bistable network motifs operating at cell cycle transitions are briefly summarised below:
 
-{{< figure src="https://novakgroupoxford.github.io/bicycle-hugo/img/motif.png" title="Fig.4: The sequential activation of bistable switches during mammalian cell cycle progression" >}}
+{{< figure src="https://novakgroupoxford.github.io/bicycle-hugo/img/motif.png" title="Fig.4: The sequential activation of bistable switches during mammalian cell cycle progression" class="img-post">}}
 *The antagonistic relationships between cell cycle activators and inhibitors are illustrated as an auto-activation of activators, for simplicity.*
 
 **Restriction Point (RP)** is enforced by the Retinoblastoma Protein (pRb), a repressor of E2F transcription factors. pRb is inactivated by CycE-dependent kinase via a positive feedback loop:
