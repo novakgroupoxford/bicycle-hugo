@@ -122,19 +122,19 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-file-text-o"
       title = "Publications"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "A comprehensive list of publications published in the course of this project."
       url = "/publication/"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Code and Computational Tools"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      description = "Publicly available computational resources developed in the course of this project"
       url = "/resource/code/"
 
     [[params.services.row.list]]
       icon = "fa-picture-o"
-      title = "Stories, Images"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "Stories"
+      description = "Reserach Stories, News and Updates"
       url = "#"
 
   # Portfolio section
