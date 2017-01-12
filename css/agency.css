@@ -57,7 +57,7 @@ h6 {
     font-weight: 700;
 }
 
-.img-post{
+.img-post>img{
   width: 75%
 }
 
