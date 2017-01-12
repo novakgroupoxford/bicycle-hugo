@@ -40,10 +40,74 @@ E2F → CycE
 
 **Mitotic exit** includes the activation of PP2A:B55 phosphatase which counteracts the inhibitory phosphorylations by Cdk1:CycB on the cytokinesis machinery. Since PP2A:B55 is kept inactive during mitosis by its stoichiometric inhibitors (Endosulfine, Arpp19) in a CycB-kinase dependent manner, its initial activation requires CycB degradation by APC/C<sup>Cdc20</sup>. We have proposed11 that PP2A:B55 promotes its own activation by inactivating Greatwall-kinase (positive feedback).
 
-| **Cell Cycle Transition** | **Inhibitors**                            | **Activators**              |
-|---------------------------|-------------------------------------------|-----------------------------|
-| Restriction point         | Retinoblastoma Protein (pRb)              | Cdk4,6:CycD, Cdk2:CycE, E2F |
-| G1/S                      | p27<sup>Kip1</sup>, APC/C</sup>Cdh1</sup> | Cdk2:CycE, Cdk2:CycA        |
-| G2/M                      | Wee1, Myt1, PP2A:B55                      | Cdk1:CycB, Cdk1:CycA, Cdc25 |
-| Meta/Anaphase             | Mitotic Checkpoint Comples (MCC)          | Anaphase Promoting Complex/Cyclosome (APC/C) |
-| Mitotic Exit              | Cdk1:CycB, Endosulfine (Arpp19), Greatwall-kinase | PP2A:B55, Polo-kinase, Aurora-kinases |
+
+### Activators and inhibitors of mammalian cell cycle transitions.
+
+<div class="row text-center">
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-naq5{font-weight:bold;font-family:"Courier New", Courier, monospace !important;;text-align:center;vertical-align:top}
+.tg .tg-r5us{font-family:"Courier New", Courier, monospace !important;;text-align:center;vertical-align:top}
+</style>
+<table class="tg" align="center">
+  <tr>
+    <th class="tg-naq5">Cell Cycle Transition</th>
+    <th class="tg-naq5">Inhibitors</th>
+    <th class="tg-naq5">Activators</th>
+  </tr>
+  <tr>
+    <td class="tg-r5us">Restriction point</td>
+    <td class="tg-r5us">Retinoblastoma Protein (pRb)</td>
+    <td class="tg-r5us">Cdk4,6:CycD,Cdk2:CycE, E2F</td>
+  </tr>
+  <tr>
+    <td class="tg-r5us">G1/S</td>
+    <td class="tg-r5us">p27:Kip1, APC/C:Cdh1</td>
+    <td class="tg-r5us">Cdk2:CycE, Cdk2:CycA</td>
+  </tr>
+  <tr>
+    <td class="tg-r5us">G2/M</td>
+    <td class="tg-r5us">Wee1, Myt1, PP2A:B55</td>
+    <td class="tg-r5us">Cdk1:CycB, Cdk1:CycA, Cdc25</td>
+  </tr>
+  <tr>
+    <td class="tg-r5us">Meta/Anaphase</td>
+    <td class="tg-r5us">Mitotic Checkpoint Comples (MCC)</td>
+    <td class="tg-r5us">Anaphase Promoting Complex/Cyclosome (APC/C)</td>
+  </tr>
+  <tr>
+    <td class="tg-r5us">Mitotic Exit</td>
+    <td class="tg-r5us">Cdk1:CycB, Endosulfine (Arpp19), Greatwall-kinase</td>
+    <td class="tg-r5us">PP2A:B55, Polo-kinase, Aurora-kinases</td>
+  </tr>
+</table>
+</div>
+
+
+### Funded by the BBSRC grant number BB/M00354X/1
+
+## References
+
+1 Morgan, D. O. The Cell Cycle: Principles of Control., (New Science Press, 2007).
+
+2 Verdugo, A., Vinod, P. K., Tyson, J. J. & Novak, B. Molecular mechanisms creating bistable switches at cell cycle transitions. Open biology 3, 120179, doi:10.1098/rsob.120179 (2013).
+
+3 Chen, K. C. et al. Kinetic analysis of a molecular model of the budding yeast cell cycle. Mol Biol Cell 11, 369-391 (2000).
+
+4 Novak, B. & Tyson, J. J. Modeling the control of DNA replication in fission yeast. Proc Natl Acad Sci U S A 94, 9147-9152 (1997).
+
+5 Novak, B. & Tyson, J. J. Numerical analysis of a comprehensive model of M-phase control in Xenopus oocyte extracts and intact embryos. J Cell Sci 106, 1153-1168 (1993).
+
+6 Calzone, L., Thieffry, D., Tyson, J. J. & Novak, B. Dynamical modeling of syncytial mitotic cycles in Drosophila embryos. Mol Syst Biol 3, 131 (2007).
+
+7 Yao, G., Lee, T. J., Mori, S., Nevins, J. R. & You, L. A bistable Rb-E2F switch underlies the restriction point. Nat Cell Biol 10, 476-482 (2008).
+
+8 Kalaszczynska, I. et al. Cyclin A is redundant in fibroblasts but essential in hematopoietic and embryonic stem cells. Cell 138, 352-365, doi:10.1016/j.cell.2009.04.062 (2009).
+
+9 Krek, W. et al. Negative regulation of the growth-promoting transcription factor E2F-1 by a stably bound cyclin A-dependent protein kinase. Cell 78, 161-172 (1994).
+
+10 Musacchio, A. & Ciliberto, A. The spindle-assembly checkpoint and the beauty of self-destruction. Nat Struct Mol Biol 19, 1059-1061, doi:10.1038/nsmb.2429 (2012).
+
+11 Hegarat, N. et al. PP2A/B55 and Fcp1 regulate Greatwall and Ensa dephosphorylation during mitotic exit. PLoS Genet 10, e1004004, doi:10.1371/journal.pgen.1004004 (2014).

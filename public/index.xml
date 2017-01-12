@@ -101,47 +101,75 @@ E2F → CycE
 
 &lt;p&gt;&lt;strong&gt;Mitotic exit&lt;/strong&gt; includes the activation of PP2A:B55 phosphatase which counteracts the inhibitory phosphorylations by Cdk1:CycB on the cytokinesis machinery. Since PP2A:B55 is kept inactive during mitosis by its stoichiometric inhibitors (Endosulfine, Arpp19) in a CycB-kinase dependent manner, its initial activation requires CycB degradation by APC/C&lt;sup&gt;Cdc20&lt;/sup&gt;. We have proposed11 that PP2A:B55 promotes its own activation by inactivating Greatwall-kinase (positive feedback).&lt;/p&gt;
 
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;Cell Cycle Transition&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Inhibitors&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;Activators&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
+&lt;h3 id=&#34;activators-and-inhibitors-of-mammalian-cell-cycle-transitions&#34;&gt;Activators and inhibitors of mammalian cell cycle transitions.&lt;/h3&gt;
 
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Restriction point&lt;/td&gt;
-&lt;td&gt;Retinoblastoma Protein (pRb)&lt;/td&gt;
-&lt;td&gt;Cdk4,6:CycD, Cdk2:CycE, E2F&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;G1/S&lt;/td&gt;
-&lt;td&gt;p27&lt;sup&gt;Kip1&lt;/sup&gt;, APC/C&lt;/sup&gt;Cdh1&lt;/sup&gt;&lt;/td&gt;
-&lt;td&gt;Cdk2:CycE, Cdk2:CycA&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;G2/M&lt;/td&gt;
-&lt;td&gt;Wee1, Myt1, PP2A:B55&lt;/td&gt;
-&lt;td&gt;Cdk1:CycB, Cdk1:CycA, Cdc25&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Meta/Anaphase&lt;/td&gt;
-&lt;td&gt;Mitotic Checkpoint Comples (MCC)&lt;/td&gt;
-&lt;td&gt;Anaphase Promoting Complex/Cyclosome (APC/C)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Mitotic Exit&lt;/td&gt;
-&lt;td&gt;Cdk1:CycB, Endosulfine (Arpp19), Greatwall-kinase&lt;/td&gt;
-&lt;td&gt;PP2A:B55, Polo-kinase, Aurora-kinases&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+&lt;div class=&#34;row text-center&#34;&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-naq5{font-weight:bold;font-family:&#34;Courier New&#34;, Courier, monospace !important;;text-align:center;vertical-align:top}
+.tg .tg-r5us{font-family:&#34;Courier New&#34;, Courier, monospace !important;;text-align:center;vertical-align:top}
+&lt;/style&gt;
+&lt;table class=&#34;tg&#34; align=&#34;center&#34;&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-naq5&#34;&gt;Cell Cycle Transition&lt;/th&gt;
+    &lt;th class=&#34;tg-naq5&#34;&gt;Inhibitors&lt;/th&gt;
+    &lt;th class=&#34;tg-naq5&#34;&gt;Activators&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Restriction point&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Retinoblastoma Protein (pRb)&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Cdk4,6:CycD,Cdk2:CycE, E2F&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;G1/S&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;p27:Kip1, APC/C:Cdh1&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Cdk2:CycE, Cdk2:CycA&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;G2/M&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Wee1, Myt1, PP2A:B55&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Cdk1:CycB, Cdk1:CycA, Cdc25&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Meta/Anaphase&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Mitotic Checkpoint Comples (MCC)&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Anaphase Promoting Complex/Cyclosome (APC/C)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Mitotic Exit&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Cdk1:CycB, Endosulfine (Arpp19), Greatwall-kinase&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;PP2A:B55, Polo-kinase, Aurora-kinases&lt;/td&gt;
+  &lt;/tr&gt;
 &lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;funded-by-the-bbsrc-grant-number-bb-m00354x-1&#34;&gt;Funded by the BBSRC grant number BB/M00354X/1&lt;/h3&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;1 Morgan, D. O. The Cell Cycle: Principles of Control., (New Science Press, 2007).&lt;/p&gt;
+
+&lt;p&gt;2 Verdugo, A., Vinod, P. K., Tyson, J. J. &amp;amp; Novak, B. Molecular mechanisms creating bistable switches at cell cycle transitions. Open biology 3, 120179, doi:10.1098/rsob.120179 (2013).&lt;/p&gt;
+
+&lt;p&gt;3 Chen, K. C. et al. Kinetic analysis of a molecular model of the budding yeast cell cycle. Mol Biol Cell 11, 369-391 (2000).&lt;/p&gt;
+
+&lt;p&gt;4 Novak, B. &amp;amp; Tyson, J. J. Modeling the control of DNA replication in fission yeast. Proc Natl Acad Sci U S A 94, 9147-9152 (1997).&lt;/p&gt;
+
+&lt;p&gt;5 Novak, B. &amp;amp; Tyson, J. J. Numerical analysis of a comprehensive model of M-phase control in Xenopus oocyte extracts and intact embryos. J Cell Sci 106, 1153-1168 (1993).&lt;/p&gt;
+
+&lt;p&gt;6 Calzone, L., Thieffry, D., Tyson, J. J. &amp;amp; Novak, B. Dynamical modeling of syncytial mitotic cycles in Drosophila embryos. Mol Syst Biol 3, 131 (2007).&lt;/p&gt;
+
+&lt;p&gt;7 Yao, G., Lee, T. J., Mori, S., Nevins, J. R. &amp;amp; You, L. A bistable Rb-E2F switch underlies the restriction point. Nat Cell Biol 10, 476-482 (2008).&lt;/p&gt;
+
+&lt;p&gt;8 Kalaszczynska, I. et al. Cyclin A is redundant in fibroblasts but essential in hematopoietic and embryonic stem cells. Cell 138, 352-365, doi:10.1016/j.cell.2009.04.062 (2009).&lt;/p&gt;
+
+&lt;p&gt;9 Krek, W. et al. Negative regulation of the growth-promoting transcription factor E2F-1 by a stably bound cyclin A-dependent protein kinase. Cell 78, 161-172 (1994).&lt;/p&gt;
+
+&lt;p&gt;10 Musacchio, A. &amp;amp; Ciliberto, A. The spindle-assembly checkpoint and the beauty of self-destruction. Nat Struct Mol Biol 19, 1059-1061, doi:10.1038/nsmb.2429 (2012).&lt;/p&gt;
+
+&lt;p&gt;11 Hegarat, N. et al. PP2A/B55 and Fcp1 regulate Greatwall and Ensa dephosphorylation during mitotic exit. PLoS Genet 10, e1004004, doi:10.1371/journal.pgen.1004004 (2014).&lt;/p&gt;
 </description>
     </item>
     
