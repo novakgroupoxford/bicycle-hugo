@@ -32,10 +32,18 @@ According to our working hypothesis, mammalian cell cycle progression is driven 
 E2F → CycE
  ¬ Rb ¬ E2F. The RP is the only cell cycle transition in mammalian cells where bistability has been experimentally demonstrated [7].
 
-**G1/S transition** is triggered by CycE-kinase which turns off degradation of CycA by APC/CCdh1 and promotes degradation of the Cdk2 inhibitor p27Kip1 (double-negative feedback). CycE levels are down-regulated after the transition by activities of Cdk2 (negative feedback) [8,9].
+**G1/S transition** is triggered by CycE-kinase which turns off degradation of CycA by APC/C<sup>Cdh1</sup> and promotes degradation of the Cdk2 inhibitor p27<sup>Kip1</sup> (double-negative feedback). CycE levels are down-regulated after the transition by activities of Cdk2 (negative feedback) [8,9].
 
-**G2/M transition** is facilitated by CycA-kinase turning off the degradation of CycB through inactivation of APC/CCdh1 and by reducing the extent of inhibitory phosphorylation of Cdk1:CycB complexes and PP2A:B55 activity. Once activated, CycB-kinase is able to prevent this inhibitory phosphorylation (positive feedback). CycB also promotes APC/CCdc20 dependent destruction of CycA (negative feedback) by a SAC independent mechanism without destabilizing the mitotic state.
+**G2/M transition** is facilitated by CycA-kinase turning off the degradation of CycB through inactivation of APC/CCdh1 and by reducing the extent of inhibitory phosphorylation of Cdk1:CycB complexes and PP2A:B55 activity. Once activated, CycB-kinase is able to prevent this inhibitory phosphorylation (positive feedback). CycB also promotes APC/C<sup>Cdc20</sup> dependent destruction of CycA (negative feedback) by a SAC independent mechanism without destabilizing the mitotic state.
 
-**Meta/anaphase transition** is initiated by APC/CCdc20 whose activation requires CycB dependent phosphorylation. APC/C:Cdc20 triggers anaphase by promoting the degradation of Separase inhibitors, Securin and CycB (negative feedback). However APC/C activity is blocked by the Mitotic Checkpoint Complex (MCC) which is inactivated by APC/C dependent ubiquitylation10 (double-negative feedback).
+**Meta/anaphase transition** is initiated by APC/C<sup>Cdc20</sup> whose activation requires CycB dependent phosphorylation. APC/C<sup>Cdc20</sup> triggers anaphase by promoting the degradation of Separase inhibitors, Securin and CycB (negative feedback). However APC/C activity is blocked by the Mitotic Checkpoint Complex (MCC) which is inactivated by APC/C dependent ubiquitylation10 (double-negative feedback).
 
-**Mitotic exit** includes the activation of PP2A:B55 phosphatase which counteracts the inhibitory phosphorylations by Cdk1:CycB on the cytokinesis machinery. Since PP2A:B55 is kept inactive during mitosis by its stoichiometric inhibitors (Endosulfine, Arpp19) in a CycB-kinase dependent manner, its initial activation requires CycB degradation by APC/CCdc20. We have proposed11 that PP2A:B55 promotes its own activation by inactivating Greatwall-kinase (positive feedback).
+**Mitotic exit** includes the activation of PP2A:B55 phosphatase which counteracts the inhibitory phosphorylations by Cdk1:CycB on the cytokinesis machinery. Since PP2A:B55 is kept inactive during mitosis by its stoichiometric inhibitors (Endosulfine, Arpp19) in a CycB-kinase dependent manner, its initial activation requires CycB degradation by APC/C<sup>Cdc20</sup>. We have proposed11 that PP2A:B55 promotes its own activation by inactivating Greatwall-kinase (positive feedback).
+
+| **Cell Cycle Transition** | **Inhibitors**                            | **Activators**              |
+|---------------------------|-------------------------------------------|-----------------------------|
+| Restriction point         | Retinoblastoma Protein (pRb)              | Cdk4,6:CycD, Cdk2:CycE, E2F |
+| G1/S                      | p27<sup>Kip1</sup>, APC/C</sup>Cdh1</sup> | Cdk2:CycE, Cdk2:CycA        |
+| G2/M                      | Wee1, Myt1, PP2A:B55                      | Cdk1:CycB, Cdk1:CycA, Cdc25 |
+| Meta/Anaphase             | Mitotic Checkpoint Comples (MCC)          | Anaphase Promoting Complex/Cyclosome (APC/C) |
+| Mitotic Exit              | Cdk1:CycB, Endosulfine (Arpp19), Greatwall-kinase | PP2A:B55, Polo-kinase, Aurora-kinases |
