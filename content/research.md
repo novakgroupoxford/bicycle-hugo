@@ -18,3 +18,6 @@ Progression through each of the cell cycle transitions is controlled by a balanc
 *At small Activator<sub>i-1</sub> levels the network has two alternative steady states (solid lines) separated by unstable saddle points (dashed lines). The trajectories are shown by dotted curves.*
 
 The sequential connection of these switch-like network motifs not only accounts for oscillations of activators and inhibitors during cell cycle progression, but also provides **‘checkpoint’** control over the cell cycle transitions. By monitoring defective states of chromosomes (damaged, not fully replicated, or improperly aligned on the mitotic spindle), intracellular surveillance mechanisms keep Activator<sub>i-1</sub> at a subthreshold level and thereby block the transition. When the defect is repaired, the bistable switch is released to drive the transition as shown (Fig.2).
+
+{{< figure src="https://novakgroupoxford.github.io/bicycle-hugo/img/bistability.png" title="Fig.3: The bistable switch creates a ‘point of no return’" >}}
+*Depletion of the initial activator (Activator<sub>i-1</sub>) during the transition bifurcates the cell population.*

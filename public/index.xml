@@ -54,6 +54,21 @@
 &lt;em&gt;At small Activator&lt;sub&gt;i-1&lt;/sub&gt; levels the network has two alternative steady states (solid lines) separated by unstable saddle points (dashed lines). The trajectories are shown by dotted curves.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;The sequential connection of these switch-like network motifs not only accounts for oscillations of activators and inhibitors during cell cycle progression, but also provides &lt;strong&gt;‘checkpoint’&lt;/strong&gt; control over the cell cycle transitions. By monitoring defective states of chromosomes (damaged, not fully replicated, or improperly aligned on the mitotic spindle), intracellular surveillance mechanisms keep Activator&lt;sub&gt;i-1&lt;/sub&gt; at a subthreshold level and thereby block the transition. When the defect is repaired, the bistable switch is released to drive the transition as shown (Fig.2).&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://novakgroupoxford.github.io/bicycle-hugo/img/bistability.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Fig.3: The bistable switch creates a ‘point of no return’&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;em&gt;Depletion of the initial activator (Activator&lt;sub&gt;i-1&lt;/sub&gt;) during the transition bifurcates the cell population.&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
