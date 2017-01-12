@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Novak on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>https://example.org/groups/novak/index.xml</link>
+    <description>Recent content in Novak on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/groups/novak/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>bela_novak</title>
+      <link>https://example.org/member/bela_novak/</link>
+      <pubDate>Tue, 29 Nov 2016 14:09:15 +0000</pubDate>
+      
+      <guid>https://example.org/member/bela_novak/</guid>
+      <description>&lt;p&gt;Bela Novak trained as a biochemical engineer and started his research career as an experimental cell biologist working on the fission yeast cell cycle with Prof. Murdoch Mitchison. In the early nineties, in collaboration with Prof. John Tyson, he pioneered a systems-level description of eukaryotic cell cycle controls. The mathematical modelling approach that he established, based on biochemical reaction kinetics, computer simulations and dynamical systems theory, has proven effective in bridging the gap between molecular control networks and cell physiology. In his hands, these models proved successful in uncovering basic principles and molecular mechanisms of cell cycle control. Being well-versed in the experimental literature, he easily communicates with experimentalists, evidenced by his joint Cell and Nature publications with Dr Frank Uhlmann (CRUK, LRI) and Dr Wolfgang Zachariae (MPI, Martinsried) on the budding yeast cell cycle and meiosis. Recently, he has started successful collaborations with four experimentalists participating in this proposal (Prof. Francis Barr, Dr Helfrid Hochegger, Dr Ulrike Gruneberg and Dr Chris Bakal), which also led to publications in Molecular Cell and PloS Genetics&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>stefan_heldt</title>
+      <link>https://example.org/member/stefan_heldt/</link>
+      <pubDate>Tue, 29 Nov 2016 14:09:07 +0000</pubDate>
+      
+      <guid>https://example.org/member/stefan_heldt/</guid>
+      <description>&lt;p&gt;Stefan Heldt studied &lt;strong&gt;Biosystems Engineering&lt;/strong&gt; at the Otto von Guericke University in Magdeburg, Germany. He received his degree in 2009 after completing a diploma thesis on stochastic simulations of mRNA translation in the group of Prof. Celso Grebogi at the University of Aberdeen, Scotland. He then joined the Max Planck Institute for Dynamics of Complex Technical Systems for a Ph.D. developing mechanistic, multi-scale models of influenza virus infection. This work awarded him the 2016 MTZ Award for Medical Systems Biology. Since 2015, he is a postdoctoral research fellow in Bela Novak’s lab, where he uses mathematical modelling to understand the dynamic characteristics of the mammalian cell cycle and its regulation. In this project, he is working closely with Alexis Barr from Chris Bakal’s lab.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>scott_rata</title>
+      <link>https://example.org/member/scott_rata/</link>
+      <pubDate>Tue, 29 Nov 2016 14:08:57 +0000</pubDate>
+      
+      <guid>https://example.org/member/scott_rata/</guid>
+      <description>&lt;p&gt;I am a fourth-year DPhil student, modelling the G2/M transition with Helfrid Hochegger&amp;rsquo;s group. We are investigating the factors that contribute to the triggering and to the hysteresis of this transtion.&lt;/p&gt;
+
+&lt;p&gt;My research interests also include the metaphase-to-anaphase transition, modelling the regulation of separase and its effects on the localisation of the chromosomal passenger complex.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>lukas_hutter</title>
+      <link>https://example.org/member/lukas_hutter/</link>
+      <pubDate>Tue, 29 Nov 2016 14:08:48 +0000</pubDate>
+      
+      <guid>https://example.org/member/lukas_hutter/</guid>
+      <description>&lt;p&gt;I am a DPhil student in my third year and working on the meta/ana transition and mitotic exit.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Two Bistable Switches Govern M Phase Entry</title>
+      <link>https://example.org/publication/mochida_currbiol_2016/</link>
+      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/publication/mochida_currbiol_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A PP2A-B55 recognition signal controls substrate dephosphorylation kinetics during mitotic exit</title>
+      <link>https://example.org/publication/cundell_jcb_2016/</link>
+      <pubDate>Mon, 22 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/publication/cundell_jcb_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bistability of mitotic entry and exit switches during open mitosis in mammalian cells</title>
+      <link>https://example.org/publication/hegarat_bioessays_2016/</link>
+      <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/publication/hegarat_bioessays_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nutritional Control of Cell Size by the Greatwall-Endosulfine-PP2A·B55 Pathway</title>
+      <link>https://example.org/publication/chica_currbiol_2016/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/publication/chica_currbiol_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Dynamical Framework for the All-or-None G1/S Transition</title>
+      <link>https://example.org/publication/barr_cellsystems_2016/</link>
+      <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/publication/barr_cellsystems_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Premature Sister Chromatid Separation Is Poorly Detected by the Spindle Assembly Checkpoint as a Result of System-Level Feedback</title>
+      <link>https://example.org/publication/mirkovic_cellreports_2015/</link>
+      <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/publication/mirkovic_cellreports_2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Models in biology: lessons from modeling regulation of the eukaryotic cell cycle</title>
+      <link>https://example.org/publication/tyson_bmcbiology_2015/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/publication/tyson_bmcbiology_2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model scenarios for switch-like mitotic transitions</title>
+      <link>https://example.org/publication/pk_febsletters_2015/</link>
+      <pubDate>Thu, 12 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/publication/pk_febsletters_2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
