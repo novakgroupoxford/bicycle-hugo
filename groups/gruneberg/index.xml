@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gruneberg on BBSRC Bistability of Cell Cycle Transitions Project</title>
-    <link>https://example.org/groups/gruneberg/index.xml</link>
+    <link>https://novakgroupoxford.github.io/bicycle-hugo/groups/gruneberg/index.xml</link>
     <description>Recent content in Gruneberg on BBSRC Bistability of Cell Cycle Transitions Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/groups/gruneberg/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://novakgroupoxford.github.io/bicycle-hugo/groups/gruneberg/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ulrike_gruneberg</title>
-      <link>https://example.org/member/ulrike_gruneberg/</link>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/ulrike_gruneberg/</link>
       <pubDate>Tue, 29 Nov 2016 15:09:15 +0000</pubDate>
       
-      <guid>https://example.org/member/ulrike_gruneberg/</guid>
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/ulrike_gruneberg/</guid>
       <description>&lt;p&gt;Ulrike Gruneberg is a Senior Medical Research Fellow at the Sir William Dunn School of Pathology in Oxford. Ulrike received her postdoctoral training in the labs of Elmar Schiebel and Erich Nigg and was subsequently awarded a prestigious Cancer Research UK Career Development Fellowship to start her own lab, initially at the University of Liverpool and then at the University of Oxford. Ulrike’s lab studies the mechanisms that regulate spindle formation and chromosome segregation in mammalian cells. In particular, Ulrike is interested in understanding the process of the metaphase-to-anaphase transition and the regulatory mechanisms that control this cell cycle transition. Questions that are studied in the lab are how stable microtubule-kinetochore interactions are formed, how the spindle assembly checkpoint is activated and silenced and how dynamic post-translational modifications such as phosphorylation and acetylation control these cell cycle events. Ulrike uses a combination of cell biological and biochemical techniques to address these questions, and the lab has extensive expertise in the generation and use of fluorescently tagged stable cell lines to study cell cycle progression by live cell imaging, as well as the implementation of biochemical and immunofluorescence based screens to identify novel regulators of cell cycle progression.&lt;/p&gt;
 </description>
     </item>
