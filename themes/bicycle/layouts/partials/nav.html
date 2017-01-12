@@ -40,12 +40,6 @@
         </li>
         {{ end }}
 
-        {{ if .Site.Params.team.enable }}
-        <li>
-          <a {{ if .IsHome }} http://localhost:1313/#portfolio {{ end }} href="{{ .Site.BaseURL }}#team">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
-        </li>
-        {{ end }}
-
         {{ if .Site.Params.services.enable }}
           <li>
             <a {{ if .IsHome }} http://localhost:1313/#portfolio {{ end }} href="{{ .Site.BaseURL }}#services">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>

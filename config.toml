@@ -195,7 +195,7 @@ googleAnalytics = ""
 
   # Team section
   [params.team]
-    enable = false
+    enable = true
     # Possibility to center items
     #center = true
     title = "Who we are"
