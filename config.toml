@@ -75,7 +75,7 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     logo = "bi-cycle.png"
     services = "Resources"
-    portfolio = "Who We Are"
+    # portfolio = "Who We Are"
     about = "About"
     contact = "Contact"
 
@@ -199,7 +199,7 @@ googleAnalytics = ""
     # Possibility to center items
     #center = true
     title = "Who we are"
-    subtitle = "The team behind the bicycle project"
+    subtitle = "The major players behind the bicycle project"
     description = ""
 
 
