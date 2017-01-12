@@ -330,7 +330,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="375.96477"
+     inkscape:cx="268.8381"
      inkscape:cy="202.10825"
      inkscape:document-units="px"
      inkscape:current-layer="svg5317"
@@ -360,7 +360,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1223,56 +1223,9 @@
        y="197.85716"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:center;text-anchor:middle"
        id="tspan4444">University of Oxford</tspan></text>
-  <g
-     transform="matrix(1.25,0,0,-1.25,-98.544793,608.37884)"
-     inkscape:label="bi-cycle"
-     id="g10">
-    <g
-       id="g12">
-      <g
-         id="g36"
-         transform="matrix(0.73087913,0,0,0.96307972,207.07919,534.32431)">
-        <g
-           id="g4488"
-           transform="matrix(0.32626592,0,0,0.32626592,-50.211691,-53.455227)">
-          <g
-             transform="matrix(1,0,0,0.75889785,-141.37626,-58.642799)"
-             id="g24">
-            <path
-               inkscape:connector-curvature="0"
-               id="path26"
-               style="fill:none;stroke:#cccccc;stroke-width:18;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-               d="m 0,0 c 0,-40.359 -32.718,-73.078 -73.077,-73.078 -40.359,0 -73.077,32.719 -73.077,73.078 0,40.357 32.718,73.076 73.077,73.076 C -32.718,73.076 0,40.357 0,0 Z" />
-          </g>
-          <path
-             inkscape:connector-curvature="0"
-             id="path50"
-             style="fill:none;stroke:#aa0000;stroke-width:16.34531593;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="M -109.40204,2.6459254 C -439.50761,-62.847618 18.872663,-55.078379 -298.2261,-140.49456" />
-        </g>
-      </g>
-    </g>
-  </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 320.74874,167.81743 140,0"
      id="path4493"
      inkscape:connector-curvature="0" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="65.748734"
-     y="45.817436"
-     id="text4495"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan4497"
-       x="65.748734"
-       y="45.817436"
-       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:22.5px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold'">bicycle </tspan><tspan
-       sodipodi:role="line"
-       x="65.748734"
-       y="73.942436"
-       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:22.5px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold'"
-       id="tspan4499">Project-overview</tspan></text>
 </svg>
