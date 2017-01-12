@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dphil Student on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>https://example.org/roles/dphil-student/index.xml</link>
+    <description>Recent content in Dphil Student on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/roles/dphil-student/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>scott_rata</title>
+      <link>https://example.org/member/scott_rata/</link>
+      <pubDate>Tue, 29 Nov 2016 14:08:57 +0000</pubDate>
+      
+      <guid>https://example.org/member/scott_rata/</guid>
+      <description>&lt;p&gt;I am a fourth-year DPhil student, modelling the G2/M transition with Helfrid Hochegger&amp;rsquo;s group. We are investigating the factors that contribute to the triggering and to the hysteresis of this transtion.&lt;/p&gt;
+
+&lt;p&gt;My research interests also include the metaphase-to-anaphase transition, modelling the regulation of separase and its effects on the localisation of the chromosomal passenger complex.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>lukas_hutter</title>
+      <link>https://example.org/member/lukas_hutter/</link>
+      <pubDate>Tue, 29 Nov 2016 14:08:48 +0000</pubDate>
+      
+      <guid>https://example.org/member/lukas_hutter/</guid>
+      <description>&lt;p&gt;I am a DPhil student in my third year and working on the meta/ana transition and mitotic exit.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
