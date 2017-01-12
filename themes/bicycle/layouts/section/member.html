@@ -19,7 +19,7 @@
               <div class="row flexbox flexbox-center">
                 <h3 class="section-heading"> {{ $groupname }}-Group </h3>
               </div>
-              <div class="row flexbox flexbox-center" style="margin-below:50px">
+              <div class="row flexbox flexbox-center" style="margin-below:50px;">
                 {{ range $i, $member := $.Site.Sections.member }}
                   {{ if (in $member.Page.Params.groups $groupname) }}
                     {{ $data := (slice $member.Page $.Site.BaseURL) }}
