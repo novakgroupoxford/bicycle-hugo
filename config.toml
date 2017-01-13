@@ -135,7 +135,7 @@ googleAnalytics = ""
       icon = "fa-picture-o"
       title = "Stories"
       description = "Reserach Stories, News and Updates"
-      url = "#"
+      url = "/post/"
 
   # Portfolio section
   [params.portfolio]

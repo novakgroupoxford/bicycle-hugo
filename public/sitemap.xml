@@ -7,6 +7,11 @@
   </url>
   
   <url>
+    <loc>https://novakgroupoxford.github.io/bicycle-hugo/post/December_2016_Project_Meeting/</loc>
+    <lastmod>2016-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/member/alexis_barr/</loc>
     <lastmod>2016-11-30T16:09:15+00:00</lastmod>
   </url>
@@ -107,13 +112,14 @@
   </url>
   
   <url>
-    <loc>https://novakgroupoxford.github.io/bicycle-hugo/groups/</loc>
-    <lastmod>2016-11-30T14:09:15+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://novakgroupoxford.github.io/bicycle-hugo/post/December_2014_Project_Meeting/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://novakgroupoxford.github.io/bicycle-hugo/post/dummy/</loc>
+    <loc>https://novakgroupoxford.github.io/bicycle-hugo/groups/</loc>
+    <lastmod>2016-11-30T14:09:15+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -290,6 +296,7 @@
   
   <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/post/</loc>
+    <lastmod>2016-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
