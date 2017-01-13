@@ -19,7 +19,9 @@
         <div class="col-lg-8 col-lg-offset-2">
           {{ range $i, $post := .Site.Sections.post }}
             <div class="row">
-              {{ $post.Page.Content | markdownify}}
+              <div class="col-lg-12 text-center">
+                {{ $post.Page.Content | markdownify}}
+              </div>
             </div>
           {{ end }}
         </div>
