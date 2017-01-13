@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+  {{ partial "head.html" . }}
+
+  <body id="page-top" class="index">
+    {{ partial "nav.html" . }}
+
+    <div class="portfolio-modal fade in" id="portfolioModal_{{ .Title }}" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                {{ $name := .Params.name}}
+                {{ $icons := .Site.Params.icons}}
+                <h2>{{ .Params.name | markdownify }}</h2>
+                <h6 class="item-intro text-muted">{{ delimit .Params.roles ", " }}</h6>
+                <img class="img-responsive img-centered img-circle" src="{{ .Site.BaseURL }}img/member/{{ .Params.img }}" alt="">
+                <p>{{ .Content | markdownify }}</p>
+                <ul class="list-inline social-buttons">
+                  {{ range $k, $v := .Params.social }}
+                    {{ if ne $v "" }}
+                    {{ $i := index $icons $k | default "" | printf "%+v" }}
+                      <li><a href="{{ $v }}" target="_blank"><i class="{{$i}}"></i></a></li>
+                    {{ end }}
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container" id="publications">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h4 class="section-heading">{{ with .Site.Params.publications.title }}{{ . }}{{ end }} contributed to in the context of this project</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <ul class="timeline">
+                {{ range $i, $publication := $.Site.Sections.publication }}
+                  {{ $data := (slice $publication.Page $.Site.BaseURL "no_abstract")}}
+                  {{ if in $publication.Page.Params.authors $name }}
+                    {{ partial "publication.html" $data }}
+                  {{ end }}
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{ partial "js.html" . }}
+  </body>
+</html>

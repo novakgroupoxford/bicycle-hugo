@@ -1,0 +1,43 @@
+{{ "<!-- Team Section -->" | safeHTML }}
+<section id="portfolio" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.team.title }}{{ . | markdownify }}{{ end }}</h2>
+        <h3 class="section-subheading text-mutedwith ">{{ with .Site.Params.team.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+
+        <!-- <ul>
+          {{ range $key, $taxonomy := .Site.Taxonomies.groups }}
+            <li>
+              {{ $key}}
+              <ul>
+                {{ range $taxonomy.Pages }}
+                  <li>
+                    {{ .Title}}
+                  </li>
+                {{ end }}
+              </ul>
+            </li>
+          {{ end }}
+        </ul> -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <p class="large text-muted">{{ with .Site.Params.team.description }}{{ . | markdownify }}{{ end }}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="row flexbox flexbox-center">
+          {{ range $i, $member := $.Site.Sections.member }}
+            {{ if (or (in $member.Page.Params.roles "Principal Investigator") (in $member.Page.Params.roles "Project Coordinator"))}}
+              {{ $data := (slice $member.Page $.Site.BaseURL) }}
+              {{ partial "member.html" $data }}
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
