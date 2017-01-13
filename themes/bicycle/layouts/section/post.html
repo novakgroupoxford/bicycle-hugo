@@ -20,6 +20,7 @@
           {{ range $i, $post := .Site.Sections.post }}
             <div class="row">
               <div class="text-center">
+                <a><h3>{{ $post.Page.Title }}</h3></a>
                 {{ $post.Page.Content | markdownify }}
               </div>
             </div>
