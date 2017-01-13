@@ -36,9 +36,13 @@
 
         {{ if .Site.Params.about.enable }}
         <li>
-          <a {{ if .IsHome }} http://localhost:1313/#portfolio {{ end }} href="{{ .Site.BaseURL }}#about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
+          <a {{ if .IsHome }} http://localhost:1313/#about {{ end }} href="{{ .Site.BaseURL }}#about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
         </li>
         {{ end }}
+
+        <li>
+          <a {{ if .IsHome }} http://localhost:1313/post {{ end }} href="{{ .Site.BaseURL }}post">Blog</a>
+        </li>
 
         {{ if .Site.Params.services.enable }}
           <li>

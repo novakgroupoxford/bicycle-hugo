@@ -17,11 +17,15 @@
       </div>
       <div class="container">
         <div class="col-lg-8 col-lg-offset-2">
-          {{ range $i, $post := .Site.Sections.post }}
-            <div class="row">
+          {{ range .Pages }}
+            <div class="row" style="margin-bottom:75px;">
               <div class="text-center">
-                <a><h3>{{ $post.Page.Title }}</h3></a>
-                {{ $post.Page.Content | markdownify }}
+                <h4>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</h4>
+                <a href="{{ .URL | safeURL }}"><h2>{{ .Title }}</h2></a>
+                <p>
+
+                  {{ .Content | markdownify }}
+                </p>
               </div>
             </div>
           {{ end }}
