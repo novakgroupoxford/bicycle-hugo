@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>https://novakgroupoxford.github.io/bicycle-hugo/index.xml</link>
+    <description>Recent content on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Jan 2017 14:47:12 +0100</lastBuildDate>
+    <atom:link href="https://novakgroupoxford.github.io/bicycle-hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Our Research</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/research/</link>
+      <pubDate>Thu, 12 Jan 2017 14:47:12 +0100</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/research/</guid>
+      <description>
+
+&lt;h1 id=&#34;our-research&#34;&gt;Our Research&lt;/h1&gt;
+
+&lt;p&gt;During its growth and division cycle the cell replicates all of its components and distributes them to create two daughter cells [1]. It is essential that the underlying processes, DNA replication (S phase), mitosis (M phase) and cell division (CD), take place in a defined sequence with the correct temporal separation: G1 → S → G2 → M → CD → G1 → . Progression through this sequence is characterized by specific transitions at boundaries between sequential stages of the cell cycle. At the &lt;strong&gt;Restriction point&lt;/strong&gt; in G1 phase the cell decides whether to proliferate or quiesce (G0). This is followed later by the abrupt &lt;strong&gt;G1/S transition&lt;/strong&gt; into S phase (DNA replication). Post-replicative cells in G2 phase enter into mitosis (M phase) at the &lt;strong&gt;G2/M transition&lt;/strong&gt;. The decision to segregate sister-chromatids once all have become aligned pairwise on the mitotic spindle takes place at the end of prometaphase and triggers the &lt;strong&gt;meta/anaphase transition and cytokinesis&lt;/strong&gt;. Anaphase is followed by the exit from mitosis back into G1 (mitotic exit). Progression through the cell cycle in eukaryotes is controlled by a conserved protein interaction network composed of protein kinases and phosphatases with stoichiometric inhibitors and activators, transcription factors, ubiquitin-conjugating enzymes and the proteasome. The molecular interactions among these cell cycle regulators create a complicated &lt;strong&gt;dynamical system&lt;/strong&gt; that oscillates once per cell cycle. In our proposal we focus on a systems-level description of the major cell cycle transitions in the mammalian cell cycle. Our &lt;strong&gt;hypothesis-driven&lt;/strong&gt; research is based on our theoretical investigations of generic dynamic characteristics in eukaryotic cell cycle transitions.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure class=&#34;img-post&#34;&gt;
+    
+        &lt;img src=&#34;https://novakgroupoxford.github.io/bicycle-hugo/img/activator-inhibitor.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Fig.1: Generic network motif of cell cycle transitions&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;em&gt;The three components are embedded in a negative feedback loop. The antagonism between Activator&lt;sub&gt;i&lt;/sub&gt; and Inhibitor&lt;sub&gt;i&lt;/sub&gt; creates a positive circuit.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Progression through each of the cell cycle transitions is controlled by a balance between &lt;strong&gt;inhibitors&lt;/strong&gt; and &lt;strong&gt;activators&lt;/strong&gt; (Fig.1). Before each cell cycle transition, an inhibitor overwhelms the activator responsible for the transition (refered here as &lt;strong&gt;Inhibitor&lt;sub&gt;i&lt;/sub&gt;&lt;/strong&gt; and &lt;strong&gt;Activator&lt;sub&gt;i&lt;/sub&gt;&lt;/strong&gt;). During the transition Inhibitor&lt;sub&gt;i&lt;/sub&gt; gets down-regulated by the activator of the previous cell cycle stage (Activator&lt;sub&gt;i-1&lt;/sub&gt;) which leads to activation of Activator&lt;sub&gt;i&lt;/sub&gt;. However after the transition, Activator&lt;sub&gt;i&lt;/sub&gt; inhibits the activator characteristic for the earlier cell cyle stage (Activator&lt;sub&gt;i-1&lt;/sub&gt;), which creates a &lt;strong&gt;negative feedback loop&lt;/strong&gt; in the network [2]. The &lt;strong&gt;irreversibility&lt;/strong&gt; of cell cycle transitions requires that Inhibitor&lt;sub&gt;i&lt;/sub&gt; is kept inactive in the post-transition state despite the disappearance of Activator&lt;sub&gt;i-1&lt;/sub&gt;. We argue that the irreversibility of the cell cycle transition is achieved by an &lt;strong&gt;antagonistic interaction&lt;/strong&gt; between Activator&lt;sub&gt;i&lt;/sub&gt; and its cognate Inhibitor&lt;sub&gt;i&lt;/sub&gt;. This &lt;strong&gt;double-negative feedback&lt;/strong&gt; makes the post-transition state and Activator&lt;sub&gt;i&lt;/sub&gt; self-maintaining by creating a &lt;strong&gt;bistable switch&lt;/strong&gt; (Fig.2). The irreversible switch creates a &lt;strong&gt;‘point of no return’&lt;/strong&gt; in the cell cycle transition, which can be experimentally tested by the following protocol. In a partly synchronised cell population undergoing the transition, abrupt inactivation of Activatori-1 redirects cells back to the bistable region close to the y-axis. The future cellular fate will be dependent upon whether cells end up above or below the unstable saddle point (Fig.3). Cells early in the transition will return to the pre-transition cell cycle state (cell ) with low Activator&lt;sub&gt;i&lt;/sub&gt; and high Inhibitor&lt;sub&gt;i&lt;/sub&gt; levels. In contrast, cells later in the transition will manage to reach the post-transition (i) state (cell ) where the levels of Activator&lt;sub&gt;i&lt;/sub&gt; and Inhibitor&lt;sub&gt;i&lt;/sub&gt; are the opposite.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure class=&#34;img-post&#34;&gt;
+    
+        &lt;img src=&#34;https://novakgroupoxford.github.io/bicycle-hugo/img/phaseplane.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Fig.2: Two phaseplane portraits of the generic cell cycle switch&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;em&gt;At small Activator&lt;sub&gt;i-1&lt;/sub&gt; levels the network has two alternative steady states (solid lines) separated by unstable saddle points (dashed lines). The trajectories are shown by dotted curves.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The sequential connection of these switch-like network motifs not only accounts for oscillations of activators and inhibitors during cell cycle progression, but also provides &lt;strong&gt;‘checkpoint’&lt;/strong&gt; control over the cell cycle transitions. By monitoring defective states of chromosomes (damaged, not fully replicated, or improperly aligned on the mitotic spindle), intracellular surveillance mechanisms keep Activator&lt;sub&gt;i-1&lt;/sub&gt; at a subthreshold level and thereby block the transition. When the defect is repaired, the bistable switch is released to drive the transition as shown (Fig.2).&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure class=&#34;img-post&#34;&gt;
+    
+        &lt;img src=&#34;https://novakgroupoxford.github.io/bicycle-hugo/img/bistability.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Fig.3: The bistable switch creates a ‘point of no return’&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;em&gt;Depletion of the initial activator (Activator&lt;sub&gt;i-1&lt;/sub&gt;) during the transition bifurcates the cell population.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Our view of eukaryotic cell cycle control is based on years of experience modelling the cell cycle of organisms like budding [3] and fission [4] yeasts, Xenopus [5] and Drosophila [6] embryos. Our prediction that eukaryotic cell cycle transitions are controlled by underlying bistable network motifs has been tested and confirmed experimentally (by the research groups of Cross, Ferrell, Sible, Morgan and Uhlmann) for each cell cycle transition of lower eukaryotes (yeasts and Xenopus embryos). However it remains elusive, whether these same &lt;strong&gt;design principles&lt;/strong&gt; are applicable to higher eukaryotic cells with more complex cell cycle control networks. Although there is strong evidence for the universality of eukaryotic cell cycle components, the physiological characteristics of the cell cycle vary widely across cell types. This raises the question whether the control mechanisms are conserved or not? A systematic analysis of bistable and other network motifs in mammalian cell cycle transitions is essential to address this question.&lt;/p&gt;
+
+&lt;p&gt;According to our working hypothesis, mammalian cell cycle progression is driven by a &lt;strong&gt;series of bistable switches&lt;/strong&gt; connected in a linear sequence (Fig.4). The activators of early cell cycle transitions (from the Restriction Point to the G2/M transition) belong to the Cyclin-dependent protein-kinase (&lt;strong&gt;Cdk&lt;/strong&gt;) family (Cdk1, Cdk2, Cdk4, Cdk6 etc.) in complex with their regulatory &lt;strong&gt;Cyclin&lt;/strong&gt; subunits (Cyclin-A, -B, -D, -E etc.). During the cell cycle, Cdks are periodically associated with their activating Cyclins whose levels are determined by transcription factors (e.g. E2F) and degradation machineries (ubiquitin-ligases: SCF and APC/C). The activity of Cdk:Cyclin complexes is subject to additional controls by stoichiometric Cdk inhibtors (e.g. p27&lt;sup&gt;Kip1&lt;/sup&gt;), inhibitory phosphorylations modulated by Wee1-kinases and Cdc25-phosphatases. The different activators and inhibitors of mammalian cell cycle transitions are summarised in the Table and the experimental evidence for potential bistable network motifs operating at cell cycle transitions are briefly summarised below:&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure class=&#34;img-post&#34;&gt;
+    
+        &lt;img src=&#34;https://novakgroupoxford.github.io/bicycle-hugo/img/motif.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Fig.4: The sequential activation of bistable switches during mammalian cell cycle progression&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+&lt;em&gt;The antagonistic relationships between cell cycle activators and inhibitors are illustrated as an auto-activation of activators, for simplicity.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Restriction Point (RP)&lt;/strong&gt; is enforced by the Retinoblastoma Protein (pRb), a repressor of E2F transcription factors. pRb is inactivated by CycE-dependent kinase via a positive feedback loop:
+E2F → CycE
+ ¬ Rb ¬ E2F. The RP is the only cell cycle transition in mammalian cells where bistability has been experimentally demonstrated [7].&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;G1/S transition&lt;/strong&gt; is triggered by CycE-kinase which turns off degradation of CycA by APC/C&lt;sup&gt;Cdh1&lt;/sup&gt; and promotes degradation of the Cdk2 inhibitor p27&lt;sup&gt;Kip1&lt;/sup&gt; (double-negative feedback). CycE levels are down-regulated after the transition by activities of Cdk2 (negative feedback) [8,9].&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;G2/M transition&lt;/strong&gt; is facilitated by CycA-kinase turning off the degradation of CycB through inactivation of APC/CCdh1 and by reducing the extent of inhibitory phosphorylation of Cdk1:CycB complexes and PP2A:B55 activity. Once activated, CycB-kinase is able to prevent this inhibitory phosphorylation (positive feedback). CycB also promotes APC/C&lt;sup&gt;Cdc20&lt;/sup&gt; dependent destruction of CycA (negative feedback) by a SAC independent mechanism without destabilizing the mitotic state.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Meta/anaphase transition&lt;/strong&gt; is initiated by APC/C&lt;sup&gt;Cdc20&lt;/sup&gt; whose activation requires CycB dependent phosphorylation. APC/C&lt;sup&gt;Cdc20&lt;/sup&gt; triggers anaphase by promoting the degradation of Separase inhibitors, Securin and CycB (negative feedback). However APC/C activity is blocked by the Mitotic Checkpoint Complex (MCC) which is inactivated by APC/C dependent ubiquitylation10 (double-negative feedback).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mitotic exit&lt;/strong&gt; includes the activation of PP2A:B55 phosphatase which counteracts the inhibitory phosphorylations by Cdk1:CycB on the cytokinesis machinery. Since PP2A:B55 is kept inactive during mitosis by its stoichiometric inhibitors (Endosulfine, Arpp19) in a CycB-kinase dependent manner, its initial activation requires CycB degradation by APC/C&lt;sup&gt;Cdc20&lt;/sup&gt;. We have proposed11 that PP2A:B55 promotes its own activation by inactivating Greatwall-kinase (positive feedback).&lt;/p&gt;
+
+&lt;h3 id=&#34;activators-and-inhibitors-of-mammalian-cell-cycle-transitions&#34;&gt;Activators and inhibitors of mammalian cell cycle transitions.&lt;/h3&gt;
+
+&lt;div class=&#34;row text-center&#34;&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-naq5{font-weight:bold;font-family:&#34;Courier New&#34;, Courier, monospace !important;;text-align:center;vertical-align:top}
+.tg .tg-r5us{font-family:&#34;Courier New&#34;, Courier, monospace !important;;text-align:center;vertical-align:top}
+&lt;/style&gt;
+&lt;table class=&#34;tg&#34; align=&#34;center&#34;&gt;
+  &lt;tr&gt;
+    &lt;th class=&#34;tg-naq5&#34;&gt;Cell Cycle Transition&lt;/th&gt;
+    &lt;th class=&#34;tg-naq5&#34;&gt;Inhibitors&lt;/th&gt;
+    &lt;th class=&#34;tg-naq5&#34;&gt;Activators&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Restriction point&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Retinoblastoma Protein (pRb)&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Cdk4,6:CycD,Cdk2:CycE, E2F&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;G1/S&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;p27:Kip1, APC/C:Cdh1&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Cdk2:CycE, Cdk2:CycA&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;G2/M&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Wee1, Myt1, PP2A:B55&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Cdk1:CycB, Cdk1:CycA, Cdc25&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Meta/Anaphase&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Mitotic Checkpoint Comples (MCC)&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Anaphase Promoting Complex/Cyclosome (APC/C)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Mitotic Exit&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;Cdk1:CycB, Endosulfine (Arpp19), Greatwall-kinase&lt;/td&gt;
+    &lt;td class=&#34;tg-r5us&#34;&gt;PP2A:B55, Polo-kinase, Aurora-kinases&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;funded-by-the-bbsrc-grant-number-bb-m00354x-1&#34;&gt;Funded by the BBSRC grant number BB/M00354X/1&lt;/h3&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;1 Morgan, D. O. The Cell Cycle: Principles of Control., (New Science Press, 2007).&lt;/p&gt;
+
+&lt;p&gt;2 Verdugo, A., Vinod, P. K., Tyson, J. J. &amp;amp; Novak, B. Molecular mechanisms creating bistable switches at cell cycle transitions. Open biology 3, 120179, doi:10.1098/rsob.120179 (2013).&lt;/p&gt;
+
+&lt;p&gt;3 Chen, K. C. et al. Kinetic analysis of a molecular model of the budding yeast cell cycle. Mol Biol Cell 11, 369-391 (2000).&lt;/p&gt;
+
+&lt;p&gt;4 Novak, B. &amp;amp; Tyson, J. J. Modeling the control of DNA replication in fission yeast. Proc Natl Acad Sci U S A 94, 9147-9152 (1997).&lt;/p&gt;
+
+&lt;p&gt;5 Novak, B. &amp;amp; Tyson, J. J. Numerical analysis of a comprehensive model of M-phase control in Xenopus oocyte extracts and intact embryos. J Cell Sci 106, 1153-1168 (1993).&lt;/p&gt;
+
+&lt;p&gt;6 Calzone, L., Thieffry, D., Tyson, J. J. &amp;amp; Novak, B. Dynamical modeling of syncytial mitotic cycles in Drosophila embryos. Mol Syst Biol 3, 131 (2007).&lt;/p&gt;
+
+&lt;p&gt;7 Yao, G., Lee, T. J., Mori, S., Nevins, J. R. &amp;amp; You, L. A bistable Rb-E2F switch underlies the restriction point. Nat Cell Biol 10, 476-482 (2008).&lt;/p&gt;
+
+&lt;p&gt;8 Kalaszczynska, I. et al. Cyclin A is redundant in fibroblasts but essential in hematopoietic and embryonic stem cells. Cell 138, 352-365, doi:10.1016/j.cell.2009.04.062 (2009).&lt;/p&gt;
+
+&lt;p&gt;9 Krek, W. et al. Negative regulation of the growth-promoting transcription factor E2F-1 by a stably bound cyclin A-dependent protein kinase. Cell 78, 161-172 (1994).&lt;/p&gt;
+
+&lt;p&gt;10 Musacchio, A. &amp;amp; Ciliberto, A. The spindle-assembly checkpoint and the beauty of self-destruction. Nat Struct Mol Biol 19, 1059-1061, doi:10.1038/nsmb.2429 (2012).&lt;/p&gt;
+
+&lt;p&gt;11 Hegarat, N. et al. PP2A/B55 and Fcp1 regulate Greatwall and Ensa dephosphorylation during mitotic exit. PLoS Genet 10, e1004004, doi:10.1371/journal.pgen.1004004 (2014).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>alexis_barr</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/alexis_barr/</link>
+      <pubDate>Wed, 30 Nov 2016 16:09:15 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/alexis_barr/</guid>
+      <description>&lt;p&gt;Alexis Barr studied Biological Natural Sciences at the University of Cambridge, specialising in Biochemistry in her third and fourth years.  She carried out her PhD in centrosome biology at the CRUK Cambridge Research Institute under the supervision of Fanni Gergely.  During that time she used genetic engineering, molecular biology and live cell imaging to study centrosome function and microtubule dynamics during mitotic spindle assembly in vertebrate cells. In 2010, Alexis moved to the Institute of Cancer Research (ICR), London, to join Chris Bakal&amp;rsquo;s team for her Postdoctoral research, in order to take a systems-level approach to analyse the control of the G1/S transition.  She is developing tools and cell lines to analyse the signalling events around the G1/S transition in real-time, at the single cell level.  She is working closely with Stefan Heldt in Bela Novak&amp;rsquo;s team towards building a comprehensive model of the G1/S transition in human cells.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>helfrid_hochegger</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/helfrid_hochegger/</link>
+      <pubDate>Wed, 30 Nov 2016 15:09:15 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/helfrid_hochegger/</guid>
+      <description>&lt;p&gt;Helfrid Hochegger works on cell cycle control using chemical genetic, advanced microscopy and proteomic approaches. He was trained in the Nobel Prize winning lab of Tim Hunt and has spent his career investigating the function of kinases and phosphatases in the regulation of cell cycle transitions. He distinguished himself by establishing a chemical genetics system to target mitotic and interphase Cdk activity in a vertebrate cell line. This work led to a prestigious Wellcome Trust career development award to set up a laboratory at the Genome Damage and Stability Centre at the University of Sussex. His genetic analysis of cell cycle control in DT40 and mammalian cells led to a recent senior CRUK research fellowship. His cellular model systems are specifically designed to analyse Cdk1 activity thresholds at the G2/M transition, which will be extremely useful for the quantitative analysis of mitotic entry models. Furthermore he will contribute valuable expertise in live-cell imaging and in genetic manipulation of the mammalian cell cycle.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>charlotte_smith</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/charlotte_smith/</link>
+      <pubDate>Wed, 30 Nov 2016 14:09:15 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/charlotte_smith/</guid>
+      <description>&lt;p&gt;Charlotte Smith has worked for the University of Oxford since 2004. She has worked in finance and management roles at the Doctoral Training Centre and the Oxford Centre for Integrative Systems Biology (OCISB). Recently she has been working with the administration team at the Department of Biochemistry on their Athena SWAN processes. For the Bistability of Cell Cycle Transitions project Charlotte works in a part-time project management role.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ulrike_gruneberg</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/ulrike_gruneberg/</link>
+      <pubDate>Tue, 29 Nov 2016 15:09:15 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/ulrike_gruneberg/</guid>
+      <description>&lt;p&gt;Ulrike Gruneberg is a Senior Medical Research Fellow at the Sir William Dunn School of Pathology in Oxford. Ulrike received her postdoctoral training in the labs of Elmar Schiebel and Erich Nigg and was subsequently awarded a prestigious Cancer Research UK Career Development Fellowship to start her own lab, initially at the University of Liverpool and then at the University of Oxford. Ulrike’s lab studies the mechanisms that regulate spindle formation and chromosome segregation in mammalian cells. In particular, Ulrike is interested in understanding the process of the metaphase-to-anaphase transition and the regulatory mechanisms that control this cell cycle transition. Questions that are studied in the lab are how stable microtubule-kinetochore interactions are formed, how the spindle assembly checkpoint is activated and silenced and how dynamic post-translational modifications such as phosphorylation and acetylation control these cell cycle events. Ulrike uses a combination of cell biological and biochemical techniques to address these questions, and the lab has extensive expertise in the generation and use of fluorescently tagged stable cell lines to study cell cycle progression by live cell imaging, as well as the implementation of biochemical and immunofluorescence based screens to identify novel regulators of cell cycle progression.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>chris_bakal</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/chris_bakal/</link>
+      <pubDate>Tue, 29 Nov 2016 15:03:15 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/chris_bakal/</guid>
+      <description>&lt;p&gt;Chris Bakal’s contributions to biology have been to use imaging and computational methods to describe the signalling networks regulating cell shape. Specifically, the Bakal laboratory has developed the use of Quantitative Morphological Signatures (QMSs) to describe the contribution of individual genes to the regulation of single-cell shape (Bakal et al., Science 2007), automated online phenotype discovery algorithms that search through databases containing millions of images to identify novel cell shapes (Yin et al., BMC Bioinformatics 2008), algorithms to determine hits from RNAi screens based on the known physical structure of signalling networks (Kraplow et al., Nature Methods 2009), combinatorial RNAi methods to determine epistatic relationships in metazoan systems (Arias-Garcia et al., Molecular Biosystems 2012), methods to describe networks through integration of phosphoproteomic and functional genomic data (Bakal et al., Science 2008), and algorithms to model hierarchical signalling relationships from QMSs derived from combinatorial RNAi (Nir et al., Genome Research 2010). Recently the Bakal laboratory devised methods to quantify the morphological heterogeneity of populations in the context of a high-throughput genetic screen, and identified a signalling network that regulates the switch-like changes in cell shape made by melanoma cells during the metastatic process (Yin et al., Nature Cell Biology 2013). The Bakal laboratory will focus on G1/S transition and will be responsible for the live cell imaging facilities as well.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>francis_barr</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/francis_barr/</link>
+      <pubDate>Tue, 29 Nov 2016 14:52:15 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/francis_barr/</guid>
+      <description>&lt;p&gt;Francis Barr is a cell biologist and biochemist working on the regulation of cell growth and division events. As a postdoctoral fellow with Graham Warren he identified new structural proteins of the Golgi apparatus that explain its profound structural rearrangements during the cell cycle. He has gone on to carry out ground-breaking studies on the role of Rab GTPases and their regulators in membrane trafficking. He demonstrated the function of Rab8 in primary cilium formation in human cells, and the molecular basis of altered membrane trafficking in human diseases including Hermansky Pudlak Syndrome, Geroderma Osteodyplastica, and Warburg Micro Syndrome. Barr’s work on cell cycle control of membrane trafficking processes has extended to the events leading up to cytokinesis. His work demonstrated that mammalian cells regulate cytokinesis by a novel mitotic kinesin MKlp2 required to transport Aurora B from centromeres to the central spindle at the onset of anaphase. Subsequently, he has shown how the key Aurora B substrate KIF4A regulates microtubule dynamics during anaphase central spindle length control. Barr also identified the mechanism controlling Plk1 localisation in human cells during anaphase, and showed that the key Plk1 substrate controlling the timing of abscission in cytokinesis is the Cep55 membrane-remodelling factor. His latest work has focused on the identification of regulatory phosphatases for the Plk1-PRC1 complex in anaphase. Together with Bela Novak he has developed an experimentally validated model explaining why cell cleavage initiates only after sister chromatid separation has occurred. In collaboration with Dr Gruneberg, he has shown how protein phosphatase 6 regulates the Aurora A kinase in mitosis, and how alterations to this enzyme may promote cancer.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>bela_novak</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/bela_novak/</link>
+      <pubDate>Tue, 29 Nov 2016 14:09:15 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/bela_novak/</guid>
+      <description>&lt;p&gt;Bela Novak trained as a biochemical engineer and started his research career as an experimental cell biologist working on the fission yeast cell cycle with Prof. Murdoch Mitchison. In the early nineties, in collaboration with Prof. John Tyson, he pioneered a systems-level description of eukaryotic cell cycle controls. The mathematical modelling approach that he established, based on biochemical reaction kinetics, computer simulations and dynamical systems theory, has proven effective in bridging the gap between molecular control networks and cell physiology. In his hands, these models proved successful in uncovering basic principles and molecular mechanisms of cell cycle control. Being well-versed in the experimental literature, he easily communicates with experimentalists, evidenced by his joint Cell and Nature publications with Dr Frank Uhlmann (CRUK, LRI) and Dr Wolfgang Zachariae (MPI, Martinsried) on the budding yeast cell cycle and meiosis. Recently, he has started successful collaborations with four experimentalists participating in this proposal (Prof. Francis Barr, Dr Helfrid Hochegger, Dr Ulrike Gruneberg and Dr Chris Bakal), which also led to publications in Molecular Cell and PloS Genetics&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>stefan_heldt</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/stefan_heldt/</link>
+      <pubDate>Tue, 29 Nov 2016 14:09:07 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/stefan_heldt/</guid>
+      <description>&lt;p&gt;Stefan Heldt studied &lt;strong&gt;Biosystems Engineering&lt;/strong&gt; at the Otto von Guericke University in Magdeburg, Germany. He received his degree in 2009 after completing a diploma thesis on stochastic simulations of mRNA translation in the group of Prof. Celso Grebogi at the University of Aberdeen, Scotland. He then joined the Max Planck Institute for Dynamics of Complex Technical Systems for a Ph.D. developing mechanistic, multi-scale models of influenza virus infection. This work awarded him the 2016 MTZ Award for Medical Systems Biology. Since 2015, he is a postdoctoral research fellow in Bela Novak’s lab, where he uses mathematical modelling to understand the dynamic characteristics of the mammalian cell cycle and its regulation. In this project, he is working closely with Alexis Barr from Chris Bakal’s lab.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>scott_rata</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/scott_rata/</link>
+      <pubDate>Tue, 29 Nov 2016 14:08:57 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/scott_rata/</guid>
+      <description>&lt;p&gt;I am a fourth-year DPhil student, modelling the G2/M transition with Helfrid Hochegger&amp;rsquo;s group. We are investigating the factors that contribute to the triggering and to the hysteresis of this transtion.&lt;/p&gt;
+
+&lt;p&gt;My research interests also include the metaphase-to-anaphase transition, modelling the regulation of separase and its effects on the localisation of the chromosomal passenger complex.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>lukas_hutter</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/lukas_hutter/</link>
+      <pubDate>Tue, 29 Nov 2016 14:08:48 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/lukas_hutter/</guid>
+      <description>&lt;p&gt;I am a DPhil student in my third year and working on the meta/ana transition and mitotic exit.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Code and Computational Resources</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/resource/code/</link>
+      <pubDate>Mon, 28 Nov 2016 14:33:48 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/resource/code/</guid>
+      <description>&lt;p&gt;Test, Test&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>code</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/code/</link>
+      <pubDate>Mon, 28 Nov 2016 14:33:48 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/code/</guid>
+      <description>&lt;p&gt;Test, Test&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Two Bistable Switches Govern M Phase Entry</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/publication/mochida_currbiol_2016/</link>
+      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/publication/mochida_currbiol_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A PP2A-B55 recognition signal controls substrate dephosphorylation kinetics during mitotic exit</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/publication/cundell_jcb_2016/</link>
+      <pubDate>Mon, 22 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/publication/cundell_jcb_2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
