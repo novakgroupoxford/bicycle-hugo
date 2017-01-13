@@ -44,11 +44,11 @@
           <a {{ if .IsHome }} http://localhost:1313/post {{ end }} href="{{ .Site.BaseURL }}post">Blog</a>
         </li>
 
-        {{ if .Site.Params.services.enable }}
+        <!-- {{ if .Site.Params.services.enable }}
           <li>
             <a {{ if .IsHome }} http://localhost:1313/#portfolio {{ end }} href="{{ .Site.BaseURL }}#services">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
           </li>
-        {{ end }}
+        {{ end }} -->
 
         {{ if .Site.Params.portfolio.enable }}
           <li>

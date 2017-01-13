@@ -9,48 +9,6 @@
     <atom:link href="https://novakgroupoxford.github.io/bicycle-hugo/groups/novak/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>bela_novak</title>
-      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/bela_novak/</link>
-      <pubDate>Tue, 29 Nov 2016 14:09:15 +0000</pubDate>
-      
-      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/bela_novak/</guid>
-      <description>&lt;p&gt;Bela Novak trained as a biochemical engineer and started his research career as an experimental cell biologist working on the fission yeast cell cycle with Prof. Murdoch Mitchison. In the early nineties, in collaboration with Prof. John Tyson, he pioneered a systems-level description of eukaryotic cell cycle controls. The mathematical modelling approach that he established, based on biochemical reaction kinetics, computer simulations and dynamical systems theory, has proven effective in bridging the gap between molecular control networks and cell physiology. In his hands, these models proved successful in uncovering basic principles and molecular mechanisms of cell cycle control. Being well-versed in the experimental literature, he easily communicates with experimentalists, evidenced by his joint Cell and Nature publications with Dr Frank Uhlmann (CRUK, LRI) and Dr Wolfgang Zachariae (MPI, Martinsried) on the budding yeast cell cycle and meiosis. Recently, he has started successful collaborations with four experimentalists participating in this proposal (Prof. Francis Barr, Dr Helfrid Hochegger, Dr Ulrike Gruneberg and Dr Chris Bakal), which also led to publications in Molecular Cell and PloS Genetics&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>stefan_heldt</title>
-      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/stefan_heldt/</link>
-      <pubDate>Tue, 29 Nov 2016 14:09:07 +0000</pubDate>
-      
-      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/stefan_heldt/</guid>
-      <description>&lt;p&gt;Stefan Heldt studied &lt;strong&gt;Biosystems Engineering&lt;/strong&gt; at the Otto von Guericke University in Magdeburg, Germany. He received his degree in 2009 after completing a diploma thesis on stochastic simulations of mRNA translation in the group of Prof. Celso Grebogi at the University of Aberdeen, Scotland. He then joined the Max Planck Institute for Dynamics of Complex Technical Systems for a Ph.D. developing mechanistic, multi-scale models of influenza virus infection. This work awarded him the 2016 MTZ Award for Medical Systems Biology. Since 2015, he is a postdoctoral research fellow in Bela Novak’s lab, where he uses mathematical modelling to understand the dynamic characteristics of the mammalian cell cycle and its regulation. In this project, he is working closely with Alexis Barr from Chris Bakal’s lab.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>scott_rata</title>
-      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/scott_rata/</link>
-      <pubDate>Tue, 29 Nov 2016 14:08:57 +0000</pubDate>
-      
-      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/scott_rata/</guid>
-      <description>&lt;p&gt;I am a fourth-year DPhil student, modelling the G2/M transition with Helfrid Hochegger&amp;rsquo;s group. We are investigating the factors that contribute to the triggering and to the hysteresis of this transtion.&lt;/p&gt;
-
-&lt;p&gt;My research interests also include the metaphase-to-anaphase transition, modelling the regulation of separase and its effects on the localisation of the chromosomal passenger complex.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>lukas_hutter</title>
-      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/lukas_hutter/</link>
-      <pubDate>Tue, 29 Nov 2016 14:08:48 +0000</pubDate>
-      
-      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/lukas_hutter/</guid>
-      <description>&lt;p&gt;I am a DPhil student in my third year and working on the meta/ana transition and mitotic exit.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Two Bistable Switches Govern M Phase Entry</title>
       <link>https://novakgroupoxford.github.io/bicycle-hugo/publication/mochida_currbiol_2016/</link>
       <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
@@ -120,6 +78,48 @@
       
       <guid>https://novakgroupoxford.github.io/bicycle-hugo/publication/pk_febsletters_2015/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>bela_novak</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/bela_novak/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/bela_novak/</guid>
+      <description>&lt;p&gt;Bela Novak trained as a biochemical engineer and started his research career as an experimental cell biologist working on the fission yeast cell cycle with Prof. Murdoch Mitchison. In the early nineties, in collaboration with Prof. John Tyson, he pioneered a systems-level description of eukaryotic cell cycle controls. The mathematical modelling approach that he established, based on biochemical reaction kinetics, computer simulations and dynamical systems theory, has proven effective in bridging the gap between molecular control networks and cell physiology. In his hands, these models proved successful in uncovering basic principles and molecular mechanisms of cell cycle control. Being well-versed in the experimental literature, he easily communicates with experimentalists, evidenced by his joint Cell and Nature publications with Dr Frank Uhlmann (CRUK, LRI) and Dr Wolfgang Zachariae (MPI, Martinsried) on the budding yeast cell cycle and meiosis. Recently, he has started successful collaborations with four experimentalists participating in this proposal (Prof. Francis Barr, Dr Helfrid Hochegger, Dr Ulrike Gruneberg and Dr Chris Bakal), which also led to publications in Molecular Cell and PloS Genetics&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>lukas_hutter</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/lukas_hutter/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/lukas_hutter/</guid>
+      <description>&lt;p&gt;I am a DPhil student in my third year and working on the meta/ana transition and mitotic exit.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>scott_rata</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/scott_rata/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/scott_rata/</guid>
+      <description>&lt;p&gt;I am a fourth-year DPhil student, modelling the G2/M transition with Helfrid Hochegger&amp;rsquo;s group. We are investigating the factors that contribute to the triggering and to the hysteresis of this transtion.&lt;/p&gt;
+
+&lt;p&gt;My research interests also include the metaphase-to-anaphase transition, modelling the regulation of separase and its effects on the localisation of the chromosomal passenger complex.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>stefan_heldt</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/stefan_heldt/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/stefan_heldt/</guid>
+      <description>&lt;p&gt;Stefan Heldt studied &lt;strong&gt;Biosystems Engineering&lt;/strong&gt; at the Otto von Guericke University in Magdeburg, Germany. He received his degree in 2009 after completing a diploma thesis on stochastic simulations of mRNA translation in the group of Prof. Celso Grebogi at the University of Aberdeen, Scotland. He then joined the Max Planck Institute for Dynamics of Complex Technical Systems for a Ph.D. developing mechanistic, multi-scale models of influenza virus infection. This work awarded him the 2016 MTZ Award for Medical Systems Biology. Since 2015, he is a postdoctoral research fellow in Bela Novak’s lab, where he uses mathematical modelling to understand the dynamic characteristics of the mammalian cell cycle and its regulation. In this project, he is working closely with Alexis Barr from Chris Bakal’s lab.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

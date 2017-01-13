@@ -115,27 +115,26 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Resources"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-file-text-o"
       title = "Publications"
-      description = "A comprehensive list of publications published in the course of this project."
-      url = "/publication/"
+      description = ""
+      url = "publication"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Code and Computational Tools"
-      description = "Publicly available computational resources developed in the course of this project"
-      url = "/resource/code/"
+      description = ""
+      url = "resource/code"
 
     [[params.services.row.list]]
       icon = "fa-picture-o"
-      title = "Stories"
-      description = "Reserach Stories, News and Updates"
-      url = "/post/"
+      title = "Research Stories, News and Updates"
+      description = ""
+      url = "post"
 
   # Portfolio section
   [params.portfolio]

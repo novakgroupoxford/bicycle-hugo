@@ -4,6 +4,22 @@
     <div class="intro-text">
       <div class="glass-over intro-lead-in">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
       <div class="glass-over intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
+      <div class="col-lg-8 col-lg-offset-2" style="background-color:rgba(0, 0, 0, 0.5);padding:20px;">
+        <h3> Recent Updates: </h3>
+        {{ range first 3 .Data.Pages }}
+        <div style="text-align:left;">
+          <a href="{{ .URL | safeURL }}" style="color:#fff">
+            <h5 style="font-weight:400">{{ dateFormat "Jan 2, 2006" .Date }}, {{ .Section }}</h5>
+            <h4 style="font-weight:400"> {{ .Title }}</h4>
+          </a>
+        </div>
+        {{ end }}
+      </div>
+
+
+
+
+
       <!-- <a href="#services" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a> -->
     </div>
   </div>

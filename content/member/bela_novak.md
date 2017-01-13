@@ -1,6 +1,6 @@
 +++
 title = "bela_novak"
-date = "2016-11-29T14:09:15Z"
+date = "2013-11-30"
 name = "Bela Novak"
 roles = ["Principal Investigator"]
 groups = ["Novak"]

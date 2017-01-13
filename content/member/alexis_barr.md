@@ -1,6 +1,6 @@
 +++
 title = "alexis_barr"
-date = "2016-11-30T16:09:15Z"
+date = "2013-11-30"
 name = "Alexis Barr"
 roles = ["Postdoc"]
 groups = ["Bakal"]

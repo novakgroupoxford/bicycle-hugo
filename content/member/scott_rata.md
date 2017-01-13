@@ -1,6 +1,6 @@
 +++
 title = "scott_rata"
-date = "2016-11-29T14:08:57Z"
+date = "2013-11-30"
 name = "Scott Rata"
 roles = ["DPhil Student"]
 groups = ["Novak"]
