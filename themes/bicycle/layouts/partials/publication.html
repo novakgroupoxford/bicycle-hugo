@@ -11,7 +11,7 @@
     <div class="timeline-heading">
       <h6 class="subheading">{{ dateFormat "Monday, Jan 2, 2006" $publication.Date }}</h6>
       <h5 class="subheading">{{ $publication.Params.journal }}</h5>
-      <h4>{{ $publication.Title }}</h4>
+      <a href="{{ $publication.URL | safeURL }}"><h4>{{ $publication.Title }}</h4></a>
       <h5 class="subheading">
         {{ delimit $publication.Params.authors ", " }}
       </h5>

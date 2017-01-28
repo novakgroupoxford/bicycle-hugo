@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://novakgroupoxford.github.io/bicycle-hugo/post/December_2016_Project_Meeting/</loc>
+    <loc>https://novakgroupoxford.github.io/bicycle-hugo/news/December_2016_Project_Meeting/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://novakgroupoxford.github.io/bicycle-hugo/post/December_2014_Project_Meeting/</loc>
+    <loc>https://novakgroupoxford.github.io/bicycle-hugo/news/December_2014_Project_Meeting/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -283,6 +283,12 @@
   </url>
   
   <url>
+    <loc>https://novakgroupoxford.github.io/bicycle-hugo/news/</loc>
+    <lastmod>2016-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/groups/novak/</loc>
     <lastmod>2016-11-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -291,12 +297,6 @@
   <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/roles/postdoc/</loc>
     <lastmod>2013-11-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://novakgroupoxford.github.io/bicycle-hugo/post/</loc>
-    <lastmod>2016-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

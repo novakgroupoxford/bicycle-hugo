@@ -6,34 +6,37 @@
   <body id="page-top" class="index">
     {{ partial "nav.html" . }}
 
-    <section id="services">
+    <section id="publications">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">{{ .Title }}</h2>
-            <h3 class="section-subheading text-muted">{{ .Content | markdownify }}</h3>
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h6 class="subheading text-muted">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</h6>
+            <h5 class="subheading">{{ .Params.journal }}</h5>
+            <h2 class="section-heading">{{ with .Title }}{{ . }}{{ end }}</h2>
+            <h4 class="subheading">
+              {{ delimit .Params.authors ", " }}
+            </h4>
+            <ul class="list-inline social-buttons">
+                <li><a href="https://dx.doi.org/{{ .Params.doi }}" target="_blank" title="Visit publisher website"><i class="ai ai-doi"></i></a></li>
+                <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term={{ .Params.doi }}" target="_blank" title="Search article in pubmed"><i class="ai ai-pubmed"></i></a></li>
+                {{ if ne .Params.github "" }}
+                  <li><a href="{{ .Params.github }}" target="_blank" title="View Code Resource on Github"><i class="fa fa-github"></i></a></li>
+                {{ end }}
+            </ul>
+            <figure class="img-post25">
+              <img src="{{.Site.BaseURL}}/img/publication/{{ .Params.img }}"/>
+            </figure>
+            <p class="abstract">
+              {{ .Params.abstract | markdownify }}
+            </p>
           </div>
         </div>
-        {{ range .Site.Params.services.row }}
-          <div class="row text-center">
-            {{ range .list }}
-              <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
-                </span>
-                <h4 class="service-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
-                <p class="text-muted">{{ .description | markdownify }}</p>
-              </div>
-            {{ end }}
-          </div>
-        {{ end }}
       </div>
     </section>
 
-    {{ if .Site.Params.portfolio.enable }}
+    <!-- {{ if .Site.Params.portfolio.enable }}
       {{ partial "modals.html" . }}
-    {{ end }}
+    {{ end }} -->
 
     {{ partial "js.html" . }}
   </body>
