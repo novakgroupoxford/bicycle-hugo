@@ -4,6 +4,7 @@ date = "2016-08-22"
 doi = "10.1083/jcb.201606033"
 img = "cundell_jcb_2016.png"
 github="https://github.com/novakgroupoxford/2016_Cundell_et_al"
+vis="https://novakgroupoxford.github.io/bicycle-hugo/static/PPSIM/timecourse.html"
 journal = "Journal of Cell Biology"
 authors = [
   "Michael Cundell",

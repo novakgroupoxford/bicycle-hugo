@@ -4,6 +4,7 @@ date = "2016-02-08"
 doi = "10.1016/j.cub.2015.12.035"
 img = "chica_currbiol_2016.jpg"
 github=""
+vis=""
 journal = "Current Biology"
 authors = [
 "Nathalia Chica",

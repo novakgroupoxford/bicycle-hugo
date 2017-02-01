@@ -22,6 +22,9 @@
                 {{ if ne .Params.github "" }}
                   <li><a href="{{ .Params.github }}" target="_blank" title="View Code Resource on Github"><i class="fa fa-github"></i></a></li>
                 {{ end }}
+                {{ if ne .Params.vis "" }}
+                  <li><a href="{{ .Params.vis }}" target="_blank" title="Visualisation Resource"><i class="fa fa-area-chart"></i></a></li>
+                {{ end }}
             </ul>
             <figure class="img-post25">
               <img src="{{.Site.BaseURL}}/img/publication/{{ .Params.img }}"/>
