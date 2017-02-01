@@ -21,6 +21,9 @@
           {{ if ne $publication.Params.github "" }}
             <li><a href="{{ $publication.Params.github }}" target="_blank" title="View Code Resource on Github"><i class="fa fa-github"></i></a></li>
           {{ end }}
+          {{ if ne $publication.Params.vis "" }}
+            <li><a href="{{ $publication.Params.vis }}" target="_blank" title="Visualisation Resource"><i class="fa fa-area-chart"></i></a></li>
+          {{ end }}
       </ul>
       {{ if eq $abstract "with_abstract" }}
         <p class="abstract">
