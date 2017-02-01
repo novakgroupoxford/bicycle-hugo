@@ -6,8 +6,17 @@
     <description>Recent content on BBSRC Bistability of Cell Cycle Transitions Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://novakgroupoxford.github.io/bicycle-hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DNA damage during S-phase mediates the proliferation- 2 quiescence decision in the subsequent G1 via p21 expression (Under Revision)</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/publication/barr_naturecommunications_2017/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/publication/barr_naturecommunications_2017/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>December 2016 Project Meeting</title>
@@ -320,16 +329,6 @@ E2F → CycE
       
       <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/bela_novak/</guid>
       <description>&lt;p&gt;Bela Novak trained as a biochemical engineer and started his research career as an experimental cell biologist working on the fission yeast cell cycle with Prof. Murdoch Mitchison. In the early nineties, in collaboration with Prof. John Tyson, he pioneered a systems-level description of eukaryotic cell cycle controls. The mathematical modelling approach that he established, based on biochemical reaction kinetics, computer simulations and dynamical systems theory, has proven effective in bridging the gap between molecular control networks and cell physiology. In his hands, these models proved successful in uncovering basic principles and molecular mechanisms of cell cycle control. Being well-versed in the experimental literature, he easily communicates with experimentalists, evidenced by his joint Cell and Nature publications with Dr Frank Uhlmann (CRUK, LRI) and Dr Wolfgang Zachariae (MPI, Martinsried) on the budding yeast cell cycle and meiosis. Recently, he has started successful collaborations with four experimentalists participating in this proposal (Prof. Francis Barr, Dr Helfrid Hochegger, Dr Ulrike Gruneberg and Dr Chris Bakal), which also led to publications in Molecular Cell and PloS Genetics&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>charlotte_smith</title>
-      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/charlotte_smith/</link>
-      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/charlotte_smith/</guid>
-      <description>&lt;p&gt;Charlotte Smith has worked for the University of Oxford since 2004. She has worked in finance and management roles at the Doctoral Training Centre and the Oxford Centre for Integrative Systems Biology (OCISB). Recently she has been working with departments across the Medical Sciences Division on Athena SWAN processes. For the Bistability of Cell Cycle Transitions project Charlotte works in a part-time project management role.&lt;/p&gt;
 </description>
     </item>
     

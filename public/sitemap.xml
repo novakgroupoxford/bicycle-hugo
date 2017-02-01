@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://novakgroupoxford.github.io/bicycle-hugo/publication/barr_naturecommunications_2017/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/news/December_2016_Project_Meeting/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
   </url>
@@ -124,7 +129,7 @@
   
   <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/authors/alexis-barr/</loc>
-    <lastmod>2016-01-27T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -147,13 +152,13 @@
   
   <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/</loc>
-    <lastmod>2016-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/groups/bakal/</loc>
-    <lastmod>2016-01-27T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -165,13 +170,13 @@
   
   <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/authors/bela-novak/</loc>
-    <lastmod>2016-11-23T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/authors/chris-bakal/</loc>
-    <lastmod>2016-01-27T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -184,6 +189,12 @@
   <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/authors/elena-poser/</loc>
     <lastmod>2016-08-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novakgroupoxford.github.io/bicycle-hugo/authors/francesca-butera/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -207,6 +218,12 @@
   <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/authors/helfrid-hochegger/</loc>
     <lastmod>2016-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novakgroupoxford.github.io/bicycle-hugo/authors/henriette-stoy/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -237,6 +254,12 @@
   <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/authors/john-tyson/</loc>
     <lastmod>2015-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novakgroupoxford.github.io/bicycle-hugo/authors/j%C3%B6rg-mansfeld/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -290,7 +313,7 @@
   
   <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/groups/novak/</loc>
-    <lastmod>2016-11-23T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -314,7 +337,7 @@
   
   <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/publication/</loc>
-    <lastmod>2016-11-23T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -338,6 +361,12 @@
   
   <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/roles/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://novakgroupoxford.github.io/bicycle-hugo/authors/samuel-cooper/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -367,7 +396,7 @@
   
   <url>
     <loc>https://novakgroupoxford.github.io/bicycle-hugo/authors/stefan-heldt/</loc>
-    <lastmod>2016-01-27T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
