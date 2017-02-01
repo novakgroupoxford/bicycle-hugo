@@ -1,1 +1,1 @@
-var path_prefix = "/static/PPSIM"
+var path_prefix = "https://novakgroupoxford.github.io/bubyble-hugo/static/PPSIM"
