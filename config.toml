@@ -89,7 +89,7 @@ googleAnalytics = ""
     #  name = "Hugo"
     #  weight = 10
 
-    postpended links
+    # postpended links
     [[menu.postpend]]
       url = "https://novakgroupoxford.github.io/bicycle-hugo/static/PPSIM/timecourse.html"
       name = "PPSIM"
