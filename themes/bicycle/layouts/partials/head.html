@@ -8,7 +8,12 @@
   <title>{{ .Site.Title }}</title>
   {{ "<!-- Stylesheets -->" | safeHTML }}
   <link href="{{ .Site.BaseURL }}css/bootstrap-v3.3.7/bootstrap.min.css" rel="stylesheet">
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}css/materialize.css"  media="screen,projection"/>
   <link href="{{ .Site.BaseURL }}css/agency.css" rel="stylesheet">
+
 
   {{ range .Site.Params.custom_css }}
     <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">

@@ -28,3 +28,15 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+function toggleDiv(id) {
+    var div = document.getElementById(id + "_abstract");
+    var btn = document.getElementById(id + "_button");
+    if (div.style.display === 'none') {
+        div.style.display = 'block';
+        btn.value = 'Show abstract';
+    } else {
+        div.style.display = 'none';
+        btn.value = 'Hide abstract';
+    }
+}

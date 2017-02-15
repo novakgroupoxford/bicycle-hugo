@@ -270,7 +270,7 @@ googleAnalytics = ""
 
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "Built by [Lukas Hutter](http://biotop.co) "
 
     [[params.footer.social]]
       icon = "fa-twitter"
