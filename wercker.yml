@@ -10,6 +10,6 @@ deploy:
         packages: git ssh-client
     - lukevivier/gh-pages:
         token: $GIT_TOKEN
-        domain: novakgroupoxford.github.io/bicycle-hugo
+        domain: novakgroupoxford.github.io
         basedir: public
-        repo: novakgroupoxford/bicycle-hugo
+        repo: novakgroupoxford/novakgroupoxford.github.io
