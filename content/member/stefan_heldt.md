@@ -7,10 +7,10 @@ groups = ["Novak"]
 universities = ["University of Oxford"]
 img = "stefan_heldt.jpg"
 [Social]
-  twitter = ""
+  twitter = "https://twitter.com/FS_Heldt"
   googlescholar = "https://scholar.google.co.uk/citations?user=eWX_y28AAAAJ&hl=en&oi=ao"
-  researchgate = "https://www.researchgate.net/profile/Frank_Heldt, https://uk.linkedin.com/in/stefan-heldt-99067210"
-  linkedin = "https://www.linkedin.com/start/join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fstefan-heldt-99067210&source=D8E90337EA&trk=login_reg_redirect"
+  researchgate = "https://www.researchgate.net/profile/Frank_Heldt"
+  linkedin = "https://www.linkedin.com/in/stefan-heldt-99067210/"
   github = ""
   website = ""
 +++
