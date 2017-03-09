@@ -1,5 +1,5 @@
 +++
-title = "DNA damage during S-phase mediates the proliferation- 2 quiescence decision in the subsequent G1 via p21 expression (Under Revision)"
+title = "DNA damage during S-phase mediates the proliferation-quiescence decision in the subsequent G1 via p21 expression (Under Revision)"
 date = "2017-02-01"
 doi = ""
 img = "barr_naturecommunications_2017.png"
