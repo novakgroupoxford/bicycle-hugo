@@ -14,35 +14,51 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-12" id="groups">
             {{ range $groupname := (shuffle .Site.Params.groups) }}
-              <div class="row flexbox flexbox-center">
-                <h3 class="section-heading"> {{ $groupname }}-Group </h3>
-              </div>
-              <div class="row flexbox flexbox-center" style="margin-below:50px;">
-                {{ range $i, $member := $.Site.Sections.member }}
+              <div>
+                <div class="row flexbox flexbox-center">
+                  <h3 class="section-heading"> {{ $groupname }}-Group </h3>
+                </div>
+                <div class="row flexbox flexbox-center" style="margin-below:50px;">
+                  {{ range $i, $member := $.Site.Sections.member }}
                   {{ if (in $member.Page.Params.groups $groupname) }}
-                    {{ $data := (slice $member.Page $.Site.BaseURL) }}
-                    {{ partial "member.html" $data }}
-                  {{ end }}
-                {{ end }}
-              </div>
-            {{ end }}
-            <div class="row flexbox flexbox-center">
-              <h3 class="section-heading"> Project Administration </h3>
-            </div>
-            <div class="row flexbox flexbox-center">
-              {{ range $i, $member := $.Site.Sections.member }}
-                {{ if (in $member.Page.Params.roles "Project Coordinator")}}
                   {{ $data := (slice $member.Page $.Site.BaseURL) }}
                   {{ partial "member.html" $data }}
+                  {{ end }}
+                  {{ end }}
+                </div>
+              </div>
+            {{ end }}
+            <div>              
+              <div class="row flexbox flexbox-center">
+                <h3 class="section-heading"> Project Administration </h3>
+              </div>
+              <div class="row flexbox flexbox-center">
+                {{ range $i, $member := $.Site.Sections.member }}
+                {{ if (in $member.Page.Params.roles "Project Coordinator")}}
+                {{ $data := (slice $member.Page $.Site.BaseURL) }}
+                {{ partial "member.html" $data }}
                 {{ end }}
-              {{ end }}
+                {{ end }}
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $(function () {
+            var parent = $("#groups");
+            var divs = parent.children();
+            while (divs.length) {
+                parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+            }
+        });
+      });
+    </script>
 
 
     {{ partial "js.html" . }}
