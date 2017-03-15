@@ -8,7 +8,7 @@
         <h3> Recent Updates: </h3>
         {{ range first 2 .Data.Pages }}
         <div style="text-align:left;padding:3px;">
-          <a href="{{ .URL | safeURL }}" style="color:#fff">
+          <a href="{{ .URL }}" style="color:#fff">
             <h6 style="font-weight:400">{{ dateFormat "Jan 2, 2006" .Date }}, {{ .Section }}</h5>
             <h5 style="font-weight:400"> {{ .Title }}</h4>
           </a>
