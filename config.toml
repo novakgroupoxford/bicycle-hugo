@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://cellcycle.org.uk"
+baseurl = "http://cellcycle.org.uk"
 languageCode = "en-us"
 title = "BBSRC Bistability of Cell Cycle Transitions Project"
 theme = "bicycle"
