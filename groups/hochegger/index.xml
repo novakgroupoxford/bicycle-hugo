@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hochegger on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>https://novakgroupoxford.github.io/bicycle-hugo/groups/hochegger/index.xml</link>
+    <description>Recent content in Hochegger on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://novakgroupoxford.github.io/bicycle-hugo/groups/hochegger/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bistability of mitotic entry and exit switches during open mitosis in mammalian cells</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/publication/hegarat_bioessays_2016/</link>
+      <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/publication/hegarat_bioessays_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>helfrid_hochegger</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/helfrid_hochegger/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/helfrid_hochegger/</guid>
+      <description>&lt;p&gt;Helfrid Hochegger works on cell cycle control using chemical genetic, advanced microscopy and proteomic approaches. He was trained in the Nobel Prize winning lab of Tim Hunt and has spent his career investigating the function of kinases and phosphatases in the regulation of cell cycle transitions. He distinguished himself by establishing a chemical genetics system to target mitotic and interphase Cdk activity in a vertebrate cell line. This work led to a prestigious Wellcome Trust career development award to set up a laboratory at the Genome Damage and Stability Centre at the University of Sussex. His genetic analysis of cell cycle control in DT40 and mammalian cells led to a recent senior CRUK research fellowship. His cellular model systems are specifically designed to analyse Cdk1 activity thresholds at the G2/M transition, which will be extremely useful for the quantitative analysis of mitotic entry models. Furthermore he will contribute valuable expertise in live-cell imaging and in genetic manipulation of the mammalian cell cycle.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>nadia_hegarat</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/nadia_hegarat/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/nadia_hegarat/</guid>
+      <description>&lt;p&gt;Nadia is interested in the link between cell cycle and genome stability. In cycling cells, the maintenance of genome integrity consists in faithful genome duplication, accurate segregation of the replicated chromosomes and repair of damaged DNA.  She started her research career in France (“Régulation et dynamique des génomes”) where she developed a highly specific purification method of DNA repair complexes.  In 2008, she joined Helfrid Hochegger’s group in the University of Sussex as a post-doctoral fellow to expand on her interest in cell cycle regulation. She worked on Aurora kinase A, an essential mitotic kinase with unclear functions. She found that Aurora A regulates chromosome segregation by controlling microtubule depolymerisation during the spindle disassembly. They also made an advance in the understanding of how anaphase onset is initiated: they identified protein phosphatases controlling the mitotic exit regulators Greatwall and ENSA. Her current research project is to understand how cyclins contributes to G2/M transition and mitotic progression and she is working closely with Bela Novak’s team to tackle this question.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

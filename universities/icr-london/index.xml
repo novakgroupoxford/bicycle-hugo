@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Icr London on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>https://novakgroupoxford.github.io/bicycle-hugo/universities/icr-london/index.xml</link>
+    <description>Recent content in Icr London on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://novakgroupoxford.github.io/bicycle-hugo/universities/icr-london/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>alexis_barr</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/alexis_barr/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/alexis_barr/</guid>
+      <description>&lt;p&gt;Alexis Barr studied Biological Natural Sciences at the University of Cambridge, specialising in Biochemistry in her third and fourth years.  She carried out her PhD in centrosome biology at the CRUK Cambridge Research Institute under the supervision of Fanni Gergely.  During that time she used genetic engineering, molecular biology and live cell imaging to study centrosome function and microtubule dynamics during mitotic spindle assembly in vertebrate cells. In 2010, Alexis moved to the Institute of Cancer Research (ICR), London, to join Chris Bakal&amp;rsquo;s team for her Postdoctoral research, in order to take a systems-level approach to analyse the control of the G1/S transition.  She is developing tools and cell lines to analyse the signalling events around the G1/S transition in real-time, at the single cell level.  She is working closely with Stefan Heldt in Bela Novak&amp;rsquo;s team towards building a comprehensive model of the G1/S transition in human cells.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>chris_bakal</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/chris_bakal/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/chris_bakal/</guid>
+      <description>&lt;p&gt;Chris Bakal’s contributions to biology have been to use imaging and computational methods to describe the signalling networks regulating cell shape. Specifically, the Bakal laboratory has developed the use of Quantitative Morphological Signatures (QMSs) to describe the contribution of individual genes to the regulation of single-cell shape (Bakal et al., Science 2007), automated online phenotype discovery algorithms that search through databases containing millions of images to identify novel cell shapes (Yin et al., BMC Bioinformatics 2008), algorithms to determine hits from RNAi screens based on the known physical structure of signalling networks (Kraplow et al., Nature Methods 2009), combinatorial RNAi methods to determine epistatic relationships in metazoan systems (Arias-Garcia et al., Molecular Biosystems 2012), methods to describe networks through integration of phosphoproteomic and functional genomic data (Bakal et al., Science 2008), and algorithms to model hierarchical signalling relationships from QMSs derived from combinatorial RNAi (Nir et al., Genome Research 2010). Recently the Bakal laboratory devised methods to quantify the morphological heterogeneity of populations in the context of a high-throughput genetic screen, and identified a signalling network that regulates the switch-like changes in cell shape made by melanoma cells during the metastatic process (Yin et al., Nature Cell Biology 2013). The Bakal laboratory will focus on G1/S transition and will be responsible for the live cell imaging facilities as well.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

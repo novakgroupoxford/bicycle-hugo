@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dphil Student on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>https://novakgroupoxford.github.io/bicycle-hugo/roles/dphil-student/index.xml</link>
+    <description>Recent content in Dphil Student on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://novakgroupoxford.github.io/bicycle-hugo/roles/dphil-student/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>scott_rata</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/scott_rata/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/scott_rata/</guid>
+      <description>&lt;p&gt;I am a fourth-year DPhil student, modelling the G2/M transition with Helfrid Hochegger&amp;rsquo;s group. We are investigating the factors that contribute to the triggering and to the hysteresis of this transtion.&lt;/p&gt;
+
+&lt;p&gt;My research interests also include the metaphase-to-anaphase transition, modelling the regulation of separase and its effects on the localisation of the chromosomal passenger complex.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

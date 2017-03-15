@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Postdoc on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>https://novakgroupoxford.github.io/bicycle-hugo/roles/postdoc/index.xml</link>
+    <description>Recent content in Postdoc on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://novakgroupoxford.github.io/bicycle-hugo/roles/postdoc/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>alexis_barr</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/alexis_barr/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/alexis_barr/</guid>
+      <description>&lt;p&gt;Alexis Barr studied Biological Natural Sciences at the University of Cambridge, specialising in Biochemistry in her third and fourth years.  She carried out her PhD in centrosome biology at the CRUK Cambridge Research Institute under the supervision of Fanni Gergely.  During that time she used genetic engineering, molecular biology and live cell imaging to study centrosome function and microtubule dynamics during mitotic spindle assembly in vertebrate cells. In 2010, Alexis moved to the Institute of Cancer Research (ICR), London, to join Chris Bakal&amp;rsquo;s team for her Postdoctoral research, in order to take a systems-level approach to analyse the control of the G1/S transition.  She is developing tools and cell lines to analyse the signalling events around the G1/S transition in real-time, at the single cell level.  She is working closely with Stefan Heldt in Bela Novak&amp;rsquo;s team towards building a comprehensive model of the G1/S transition in human cells.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>nadia_hegarat</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/nadia_hegarat/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/nadia_hegarat/</guid>
+      <description>&lt;p&gt;Nadia is interested in the link between cell cycle and genome stability. In cycling cells, the maintenance of genome integrity consists in faithful genome duplication, accurate segregation of the replicated chromosomes and repair of damaged DNA.  She started her research career in France (“Régulation et dynamique des génomes”) where she developed a highly specific purification method of DNA repair complexes.  In 2008, she joined Helfrid Hochegger’s group in the University of Sussex as a post-doctoral fellow to expand on her interest in cell cycle regulation. She worked on Aurora kinase A, an essential mitotic kinase with unclear functions. She found that Aurora A regulates chromosome segregation by controlling microtubule depolymerisation during the spindle disassembly. They also made an advance in the understanding of how anaphase onset is initiated: they identified protein phosphatases controlling the mitotic exit regulators Greatwall and ENSA. Her current research project is to understand how cyclins contributes to G2/M transition and mitotic progression and she is working closely with Bela Novak’s team to tackle this question.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>stefan_heldt</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/member/stefan_heldt/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/member/stefan_heldt/</guid>
+      <description>&lt;p&gt;Stefan Heldt studied &lt;strong&gt;Biosystems Engineering&lt;/strong&gt; at the Otto von Guericke University in Magdeburg, Germany. He received his degree in 2009 after completing a diploma thesis on stochastic simulations of mRNA translation in the group of Prof. Celso Grebogi at the University of Aberdeen, Scotland. He then joined the Max Planck Institute for Dynamics of Complex Technical Systems for a Ph.D. developing mechanistic, multi-scale models of influenza virus infection. This work awarded him the 2016 MTZ Award for Medical Systems Biology. Since 2015, he is a postdoctoral research fellow in Bela Novak’s lab, where he uses mathematical modelling to understand the dynamic characteristics of the mammalian cell cycle and its regulation. In this project, he is working closely with Alexis Barr from Chris Bakal’s lab.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

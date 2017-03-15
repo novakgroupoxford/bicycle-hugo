@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on BBSRC Bistability of Cell Cycle Transitions Project</title>
+    <link>https://novakgroupoxford.github.io/bicycle-hugo/news/index.xml</link>
+    <description>Recent content in News on BBSRC Bistability of Cell Cycle Transitions Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://novakgroupoxford.github.io/bicycle-hugo/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New Website</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/news/new_website_post/</link>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/news/new_website_post/</guid>
+      <description>&lt;p&gt;This week we launched our new website &lt;a href=&#34;http://cellcycle.org.uk/&#34;&gt;http://cellcycle.org.uk/&lt;/a&gt;. The site has been moved onto a more stable platform and the design adapted to fit in with the project team requirements. The publications section has been upgraded to display additional links, members’ pages now show their project publications and PPSIM Visualisation-Dashboard more easily accessible. The work was carried out by Lukas Hutter with support from Charlotte Smith.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>December 2016 Project Meeting</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/news/December_2016_Project_Meeting/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/news/December_2016_Project_Meeting/</guid>
+      <description>&lt;p&gt;Our annual project meeting was held in Keble College, Oxford and included two days of project updates, scientific presentations and sharing ideas. The presentations were divided into four sessions and all the groups joined in the animated discussions.&lt;/p&gt;
+
+
+&lt;figure class=&#34;img-post80&#34;&gt;
+    
+        &lt;img src=&#34;https://novakgroupoxford.github.io/bicycle-hugo/img/2016DecGroupPhoto.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;BiCycle Project Meeting December 2016, Keble College, Oxford&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Interviews with Prof. Novak (in Hungarian)</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/news/June_2016_BelaInterview/</link>
+      <pubDate>Sat, 11 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/news/June_2016_BelaInterview/</guid>
+      <description>&lt;p&gt;While on a visit to Budapest in May 2016, Bela Novak was interviewed for two Hungarian publications,. The interviews in Hungarian are available here.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sciencemeetup.444.hu/2016/06/11/a-biologusok-sokszor-a-lehetetlent-varjak-a-modellezotol&#34;&gt;Interview with the Budapest Science Meetup&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://novakgroupoxford.github.io/bicycle-hugo/pdf/Interview_BelaNovak.pdf&#34;&gt;Article in the Hungarian Chemical Journal&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Paper published in Cell Systems</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/news/2016_CellSystems_Paper/</link>
+      <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/news/2016_CellSystems_Paper/</guid>
+      <description>&lt;p&gt;A major publication from the Bicycle project is helping to reveal how mammalian cells control transition into the DNA replication phase of the cell cycle. The research published in Cell Systems (1) comes from the ongoing collaboration between the labs of Bela Novak (Oxford) and Chris Bakal (ICR), who are investigators on the Bicycle project together with Francis Barr, Ulrike Gruneberg and Helfrid Hochegger. Postdocs Alexis Barr at the ICR and Stefan Heldt in Oxford are responsible for much of the work carried out for this paper. The research provides a molecular explanation for how mammalian cells transition abruptly and irreversibly into the DNA replication phase. It also provides insight into how other transitions in the cell cycle may be controlled.&lt;/p&gt;
+
+
+&lt;figure class=&#34;img-post80&#34;&gt;
+    
+        &lt;img src=&#34;https://novakgroupoxford.github.io/bicycle-hugo/img/publication/barr_cellsystems_2016_1.jpg&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Cells control DNA replication through an elaborate set of networks that are similar between yeast and mammalian cells. There are two distinct points that the cell must pass through to enter S-phase (DNA replication phase). The decision to proliferate takes place during the resting (G1) phase of the cell cycle - at &amp;lsquo;Start&amp;rsquo; in yeast or the &amp;lsquo;restriction point&amp;rsquo; in mammalian cells. The irreversible transition from G1- to S-phase and commitment to replication occurs shortly afterwards.&lt;/p&gt;
+
+&lt;p&gt;Cyclins are a family of proteins that are important for driving the cell into S-phase. By forming complexes with the Cyclin-dependent kinases (CDKs), Cyclins promote the activation of CDK activity. Different combinations of Cdk/Cyclins control different transitions within the cell cycle, and the G1/S transition is driven by the activity of Cdk2, in complex with either CyclinE or CyclinA. These Cyclins accumulate as their genes are turned on at the restriction point. However, full activation of Cdk2:Cyclin complexes first requires degradation of Cdk inhibitors (CKIs), such as the p27 protein, which keeps Cyclin:CDK complexes in an inactive state. On top of these controls are feedback loops that ensure that the G1/S transition is both abrupt and irreversible. The dynamic interactions between these different cell cycle components have been well described in yeast but are less well understood in more complex mammalian cells.&lt;/p&gt;
+
+&lt;p&gt;The G1/S transition is one of four cell cycle transition points being studied using systems biology approaches as part of the collaborative Bicycle project. As a starting point, the Novak and Bakal groups decided to use HeLa cells to study this transition. Like many cancer cells, HeLa cells do not have an intact restriction point and enter into S-phase directly after cell division. The cells therefore provide an excellent model for studying the G1/S transition. In addition, the G1/S transition is an attractive therapeutic target for preventing cancer cells from dividing.&lt;/p&gt;
+
+
+&lt;figure class=&#34;img-post80&#34;&gt;
+    
+        &lt;img src=&#34;https://novakgroupoxford.github.io/bicycle-hugo/img/publication/barr_cellsystems_2016_2.jpg&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Images of HeLa cells expressing p27 reporter (green). The image shows stills taken from a movie of this cell going through the cell cycle. The cell starts in G2 (no p27), enters mitosis (round cell), divides into two daughter cells (dumb-bell shape) and both daughter cells enter G1. During G1, daughter cells start to express and accumulate p27, which is then rapidly degraded immediately prior to S-phase entry.Up to now, researchers have studied the mammalian cell cycle using synchronized cell populations. The new research uniquely takes a single cell approach, measuring the levels of key regulatory components of G1/S by imaging cells using confocal microscopy. A high-throughput automated system in the Bakal lab allows multiple samples to be imaged at the same time.&lt;/p&gt;
+
+&lt;p&gt;&amp;lsquo;Single cell analysis is one of the key parts of this study, and it was vital that we took the time to generate and validate the cell cycle reporters, which is technically the most challenging element,&amp;rsquo; says postdoc Alexis Barr. Generating these reporters allowed her to image and measure two components in any one cell at the same time and by linking back to a common component, correlate the expression and activity of the key components. To handle the huge amount of data generated, the group also had to develop a semi-automated image analysis pipeline.&lt;/p&gt;
+
+&lt;p&gt;Dr Barr constructed reporters for the Cdk inhibitor p27 and for CyclinA and CyclinE, which form complexes with Cdk2 and activate it, triggering entry into S-phase. She also made a reporter of Cdk2 activity and used PCNA, a component of the DNA replication machinery, as a marker of DNA replication. Once the group had collected the data, they had to average the time-courses for each of the reporters and align the cells to the start of DNA replication.&lt;/p&gt;
+
+&lt;p&gt;Professor Novak explains what they saw: &amp;lsquo;When you do this, you see a precipitous drop in p27 levels. It&amp;rsquo;s like going to the edge of the cliff and dropping off.&amp;rsquo; Once CyclinE reached a critical level, p27 could not exist anymore and displayed a very sharp, switch-like drop just as replication started. The genes for both CyclinA and CyclinE are switched on in a similar way, but CyclinA is degraded during G1 so CyclinE accumulates first.&lt;/p&gt;
+
+&lt;p&gt;To understand how the activities of the different cell cycle components are related, Professor Novak and his postdocs used the experimental data as they were being generated to develop a dynamic model. Because each cell is different and &amp;lsquo;noisy&amp;rsquo;, they needed to carry out stochastic modeling. They were able to construct a model of the G1/S transition that suggested that the abrupt degradation of p27 is due to a feedback loop between Cdk2:CyclinE and p27 and that this drives a switch-like entry into S-phase.  Dynamics of the G1/S transition in HeLa cells. Time-courses for each of the cell cycle components as measured in single cells was averaged across all cells and aligned to S-phase entry (time zero).&lt;/p&gt;
+
+&lt;p&gt;Their model also predicted the impact of another cell cycle component, Emi1, on the G1/S transition: that Emi1 was important in ensuring that the G1/S transition was irreversible. Dr Barr tested this by depleting cells of Emi1 using RNAi and found that, as predicted, G1/S control was lost and cells underwent additional rounds of DNA replication.&lt;/p&gt;
+
+
+&lt;figure class=&#34;img-post80&#34;&gt;
+    
+        &lt;img src=&#34;https://novakgroupoxford.github.io/bicycle-hugo/img/publication/barr_cellsystems_2016_3.jpg&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Professor Novak explains that an important feature of the G1/S switch is that, like a light switch, it is a bistable switch; it has critical points where it is turned on and off and is &amp;lsquo;cleaner&amp;rsquo; than other types of switches. The demonstration, both experimentally and theoretically, that a bistable switch seen in yeast is also present in more complex mammalian cells is a key finding of the research. &amp;lsquo;We want to understand what types of switches are operating in the mammalian cell cycle. Now we&amp;rsquo;ve used single cells to show for the first time that a bistable switch is operating for G1/S, controlling the activation of Cdk2 by Cyclin E and p27.&amp;rsquo;&lt;/p&gt;
+
+&lt;p&gt;Having focused on cancer cells in this study, the group is now looking at normal cells. The presence of a restriction point in these cells makes the work far more challenging but equally important.&lt;/p&gt;
+
+&lt;p&gt;Dr Barr puts much of the group&amp;rsquo;s success down to the excellent communication between its members despite their diverse scientific backgrounds. &amp;lsquo;We discuss work at least once a week and sometimes every day. This helps us to understand each other&amp;rsquo;s work and technical problems. As a biologist or mathematician, we make assumptions in our work and it&amp;rsquo;s good to be able to challenge these.&amp;rsquo;&lt;/p&gt;
+
+&lt;p&gt;Commenting about the novel use of a single cell imaging approach, Dr Bakal says: &amp;ldquo;We know a lot about the cell cycle from work done mostly in populations, but barely any work has been done in single human cells. Looking at the single cell versus a population is the approach of the future - we have the potential to learn many things about the cell cycle, as well as challenge what we think we know already.&amp;rsquo;&lt;/p&gt;
+
+&lt;p&gt;He highlights a further importance of the work. &amp;lsquo;The mathematical models that we&amp;rsquo;re building will allow us to find the true points of interventions in cancer cells and design small molecules to target these. By providing us with maps, we will know where in the pathway to strike – up to now, we&amp;rsquo;ve been guessing this.&amp;rsquo;&lt;/p&gt;
+
+&lt;p&gt;The Bicycle project is funded by BBSRC via the sLoLa research initiative, grant reference number BB/M00354X/1.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://novakgroupoxford.github.io/bicycle-hugo/publication/barr_cellsystems_2016/&#34;&gt;More details on the publication&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>December 2014 Project Meeting</title>
+      <link>https://novakgroupoxford.github.io/bicycle-hugo/news/December_2014_Project_Meeting/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://novakgroupoxford.github.io/bicycle-hugo/news/December_2014_Project_Meeting/</guid>
+      <description>&lt;p&gt;Our first project meeting took place on the first official day of the grant, 1st December 2014. The meeting was held in the Department of Biochemistry in Oxford and involved all the project groups and representatives from project partner GSK.&lt;/p&gt;
+
+
+&lt;figure class=&#34;img-post80&#34;&gt;
+    
+        &lt;img src=&#34;https://novakgroupoxford.github.io/bicycle-hugo/img/2014DecGroupPhoto.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;BiCycle Project Meeting December 2014, Biochemistry, Oxford&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
