@@ -1,15 +1,15 @@
 +++
-title = "DNA damage during S-phase mediates the proliferation-quiescence decision in the subsequent G1 via p21 expression (Under Revision)"
-date = "2017-02-01"
-doi = ""
+title = "DNA damage during S-phase mediates the proliferation-quiescence decision in the subsequent G1 via p21 expression"
+date = "2017-03-20"
+doi = "10.1038/ncomms14728"
 img = "barr_naturecommunications_2017.png"
 github="https://github.com/novakgroupoxford/2017_Barr_et_al"
 vis=""
 journal = "Nature Communications"
 authors = [
-  "Alexis Barr",
+  "Alexis R. Barr",
   "Samuel Cooper",
-  "Stefan Heldt",
+  "Frank S. Heldt",
   "Francesca Butera",
   "Henriette Stoy",
   "Jörg Mansfeld",
