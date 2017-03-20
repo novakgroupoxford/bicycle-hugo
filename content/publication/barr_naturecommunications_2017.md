@@ -9,7 +9,7 @@ journal = "Nature Communications"
 authors = [
   "Alexis R. Barr",
   "Samuel Cooper",
-  "Frank S. Heldt",
+  "Stefan Heldt",
   "Francesca Butera",
   "Henriette Stoy",
   "Jörg Mansfeld",
