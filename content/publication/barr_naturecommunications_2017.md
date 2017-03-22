@@ -7,7 +7,7 @@ github="https://github.com/novakgroupoxford/2017_Barr_et_al"
 vis=""
 journal = "Nature Communications"
 authors = [
-  "Alexis R. Barr",
+  "Alexis Barr",
   "Samuel Cooper",
   "Stefan Heldt",
   "Francesca Butera",
