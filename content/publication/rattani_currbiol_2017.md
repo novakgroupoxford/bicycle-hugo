@@ -2,7 +2,7 @@
 title = "APC/C:Cdh1 Enables Removal of Shugoshin-2 from the Arms of Bivalent Chromosomes by Moderating Cyclin-Dependent Kinase Activity"
 date = "2017-05-22"
 doi = "10.1016/j.cub.2017.04.023"
-img = ""
+img = "rattani_paper_image.jpg"
 github = ""
 vis=""
 journal = "Current Biology"
