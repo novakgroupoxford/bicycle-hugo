@@ -1,5 +1,5 @@
 +++
-title = "APC/C<sup>Cdh1</sup> Enables Removal of Shugoshin-2 from the Arms of Bivalent Chromosomes by Moderating Cyclin-Dependent Kinase Activity"
+title = "APC/C:Cdh1 Enables Removal of Shugoshin-2 from the Arms of Bivalent Chromosomes by Moderating Cyclin-Dependent Kinase Activity"
 date = "2017-05-22"
 doi = "10.1016/j.cub.2017.04.023"
 img = ""
@@ -13,8 +13,8 @@ authors = [
   "Maurici B. Roig",
   "Jonathan Godwin",
   "Michael Hopkins",
-  "Manuel Eguren"
-  "Luis Sanchez-Pulido"
+  "Manuel Eguren",
+  "Luis Sanchez-Pulido",
   "Elwy Okaz",
   "Sugako Ogushi",
   "Magda Wolna",
