@@ -2,7 +2,7 @@
 title = "NucliTrack: An integrated nuclei tracking application"
 date = "2017-06-20"
 doi = "10.1093/bioinformatics/btx404"
-img = ""
+img = "cell_cycle_sam.png"
 github="https://github.com/samocooper/nuclitrack"
 vis=""
 journal = "Bioinformatics"
