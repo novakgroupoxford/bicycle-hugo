@@ -2,7 +2,7 @@
 title = "Interlinked bistable mechanisms generate robust mitotic transitions"
 date = "2017-09-19"
 doi = "10.1080/15384101.2017.1371885"
-img = ""
+img = "novak_cellcycle_2017.JPG"
 github = ""
 vis=""
 journal = "Cell Cycle"
