@@ -2,7 +2,7 @@
 title = "Cell cycle transitions: a common role for stoichiometric inhibitors"
 date = "2017-11-09"
 doi = "10.1091/mbc.E17-06-0349"
-img = ""
+img = "hopkins_pub_2017.png"
 github = ""
 vis=""
 journal = "Molecular Biology of the Cell"
