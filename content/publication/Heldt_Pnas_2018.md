@@ -5,7 +5,7 @@ doi = "10.1073/pnas.1715345115"
 img = "Heldt_2018_Pnas_Thumbnail.png"
 github="https://github.com/novakgroupoxford/2018_Heldt_et_al"
 vis=""
-journal = "PNAS"
+journal = "Proceedings of the National Academy of Sciences"
 authors = [
   "Stefan Heldt",
   "Alexis Barr",
