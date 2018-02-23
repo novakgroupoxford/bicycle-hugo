@@ -2,7 +2,7 @@
 title = "Genome Stability during Cell Proliferation: A Systems Analysis of the Molecular Mechanisms Controlling Progression through the Eukaryotic Cell Cycle"
 date = "2018-02-22"
 doi = "10.1016/j.coisb.2018.02.004"
-img = "Novak_CurrOpin_2018_Thumbnail.png"
+img = "Novak_CurrOpin_2018.png"
 github=""
 vis=""
 journal = "Current Opinion in Systems Biology"
