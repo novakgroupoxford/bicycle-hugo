@@ -2,7 +2,7 @@
 title = "DNA Replication Determines Timing of Mitosis by Restricting CDK1 and PLK1 Activation"
 date = "2018-08-01"
 doi = "10.1016/j.molcel.2018.05.026"
-img = ""
+img = "hochegger_molecell_pub_image.jpg"
 github=""
 vis=""
 journal = "Molecular Cell"
