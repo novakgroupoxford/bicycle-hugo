@@ -39,11 +39,14 @@
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
               <ul class="timeline">
-                {{ range $i, $publication := $.Site.Sections.publication }}
-                  {{ $data := (slice $publication.Page $.Site.BaseURL "no_abstract")}}
-                  {{ if in $publication.Page.Params.authors $name }}
-                    {{ partial "publication.html" $data }}
-                  {{ end }}
+
+                {{ range $aut, $publications := $.Site.Taxonomies.authors }}
+                {{ if eq (replace (lower $name) " " "-") $aut}}
+                {{ range $publications }}
+                {{ $data := (slice .Page $.Site.BaseURL "no_abstract")}}
+                {{ partial "publication.html" $data }}
+                {{ end }}
+                {{ end }}
                 {{ end }}
               </ul>
             </div>

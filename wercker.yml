@@ -2,7 +2,7 @@ box: golang:latest
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.18.1"
+        version: "0.46"
 
 deploy:
   steps:

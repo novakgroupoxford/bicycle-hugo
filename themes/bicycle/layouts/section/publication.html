@@ -18,8 +18,8 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <ul class="timeline">
-            {{ range $i, $publication := $.Site.Sections.publication }}
-              {{ $data := (slice $publication.Page $.Site.BaseURL "with_abstract")}}
+            {{ range .Data.Pages }}
+              {{ $data := (slice . $.Site.BaseURL "with_abstract")}}
               {{ partial "publication.html" $data }}
             {{ end }}
           </ul>

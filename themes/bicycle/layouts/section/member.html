@@ -21,23 +21,23 @@
                   <h3 class="section-heading"> {{ $groupname }}-Group </h3>
                 </div>
                 <div class="row flexbox flexbox-center" style="margin-below:50px;">
-                  {{ range $i, $member := $.Site.Sections.member }}
-                  {{ if (in $member.Page.Params.groups $groupname) }}
-                  {{ $data := (slice $member.Page $.Site.BaseURL) }}
+                  {{ range $.Data.Pages }}
+                  {{ if (in .Params.groups $groupname) }}
+                  {{ $data := (slice . $.Site.BaseURL) }}
                   {{ partial "member.html" $data }}
                   {{ end }}
                   {{ end }}
                 </div>
               </div>
             {{ end }}
-            <div>              
+            <div>
               <div class="row flexbox flexbox-center">
                 <h3 class="section-heading"> Project Administration </h3>
               </div>
               <div class="row flexbox flexbox-center">
-                {{ range $i, $member := $.Site.Sections.member }}
-                {{ if (in $member.Page.Params.roles "Project Coordinator")}}
-                {{ $data := (slice $member.Page $.Site.BaseURL) }}
+                {{ range $.Data.Pages }}
+                {{ if (in .Params.roles "Project Coordinator")}}
+                {{ $data := (slice . $.Site.BaseURL) }}
                 {{ partial "member.html" $data }}
                 {{ end }}
                 {{ end }}

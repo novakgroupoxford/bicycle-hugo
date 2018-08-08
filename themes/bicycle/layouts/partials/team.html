@@ -30,9 +30,9 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="row flexbox flexbox-center" id="mainmembers">
-          {{ range $i, $member := $.Site.Sections.member }}
-            {{ if (or (in $member.Page.Params.roles "Principal Investigator") (in $member.Page.Params.roles "Project Coordinator"))}}
-              {{ $data := (slice $member.Page $.Site.BaseURL) }}
+          {{ range .Data.Pages }}
+            {{ if (or (in .Params.roles "Principal Investigator") (in .Params.roles "Project Coordinator"))}}
+              {{ $data := (slice . $.Site.BaseURL) }}
               {{ partial "member.html" $data }}
             {{ end }}
           {{ end }}
