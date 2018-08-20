@@ -23,14 +23,14 @@
               <a href="https://dx.doi.org/{{ $publication.Params.doi }}" target="_blank" title="Visit publisher website">https://dx.doi.org/{{ $publication.Params.doi }}</a></div>
           </div>
         </li>
-        <li>
+        <!-- <li>
           <div>
             <div class="collapsible-header">
               <i class="ai ai-pubmed"></i>
               <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term={{ $publication.Params.doi }}" target="_blank" title="Search article in pubmed">View on pubmed</a>
             </div>
           </div>
-        </li>
+        </li> -->
         {{ if ne $publication.Params.github "" }}
           <li>
             <div>

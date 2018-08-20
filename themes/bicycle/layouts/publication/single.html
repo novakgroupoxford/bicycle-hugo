@@ -18,7 +18,7 @@
             </h4>
             <ul class="list-inline social-buttons">
                 <li><a href="https://dx.doi.org/{{ .Params.doi }}" target="_blank" title="Visit publisher website"><i class="ai ai-doi"></i></a></li>
-                <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term={{ .Params.doi }}" target="_blank" title="Search article in pubmed"><i class="ai ai-pubmed"></i></a></li>
+                <!-- <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/?term={{ .Params.doi }}" target="_blank" title="Search article in pubmed"><i class="ai ai-pubmed"></i></a></li> -->
                 {{ if ne .Params.github "" }}
                   <li><a href="{{ .Params.github }}" target="_blank" title="View Code Resource on Github"><i class="fa fa-github"></i></a></li>
                 {{ end }}
