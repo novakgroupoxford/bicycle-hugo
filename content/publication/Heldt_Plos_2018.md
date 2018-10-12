@@ -9,7 +9,7 @@ journal = "PLOS Computational Biology"
 authors = [
   "Stefan Heldt",
   "Reece Lunstone",
-  "John J Tyson",
+  "John J. Tyson",
   "Bela Novak"
 ]
 groups = ["Novak"]
