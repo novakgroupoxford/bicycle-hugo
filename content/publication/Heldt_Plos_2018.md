@@ -1,7 +1,7 @@
 +++
 title = "Dilution and titration of cell-cycle regulators may control cell size in budding yeast"
-date = "2018-10-12"
-doi = ""
+date = "2018-10-24"
+doi = "10.1371/journal.pcbi.1006548"
 img = "Heldt_PlosComputBiol_2018.png"
 github="https://github.com/novakgroupoxford/2018b_Heldt_et_al"
 vis=""
