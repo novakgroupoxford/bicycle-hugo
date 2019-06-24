@@ -2,7 +2,7 @@
 title = "A comprehensive model for the proliferation-quiescence decision in response to endogenous DNA damage in human cells"
 date = "2018-02-21"
 doi = "10.1073/pnas.1715345115"
-img = "Heldt_2018_Pnas_Thumbnail.png"
+img = "Heldt_Pnas_2018.png"
 github="https://github.com/novakgroupoxford/2018_Heldt_et_al"
 vis=""
 journal = "Proceedings of the National Academy of Sciences"
