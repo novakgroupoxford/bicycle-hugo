@@ -3,7 +3,7 @@ categories = []
 tags = []
 date = "2016-06-11"
 title = "Interviews with Prof. Novak (in Hungarian)"
-img="https://novakgroupoxford.github.io/bicycle-hugo/img/Interview_BelaNovak.png"
+img="img/Interview_BelaNovak.png"
 +++
 
 While on a visit to Budapest in May 2016, Bela Novak was interviewed for two Hungarian publications,. The interviews in Hungarian are available here.

@@ -21,9 +21,11 @@
             <div class="row" style="margin-bottom:75px;">
               <div class="text-center">
                 <h4>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</h4>
-                <figure class="img-post80">
-                  <img src="{{ .Params.img }}"/>
-                </figure>
+                {{ if .Params.img }}
+                  <figure class="img-post80">
+                    <img src="{{.Site.BaseURL}}/{{ .Params.img }}"/>
+                  </figure>
+                {{ end }}
                 <a href="{{ .URL | safeURL }}"><h2>{{ .Title }}</h2></a>
                 <p>
                   {{ .Summary | markdownify }}

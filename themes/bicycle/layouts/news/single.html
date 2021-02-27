@@ -13,8 +13,13 @@
               <div class="text-center">
                 <h4>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</h4>
                 <h2>{{ .Title }}</h2>
+                {{ if .Params.img }}
+                <figure class="img-post80">
+                  <img src="{{.Site.BaseURL}}/{{ .Params.img }}"/>
+                </figure>
+              {{ end }}
                 <p>
-                  {{ .Content | markdownify }}
+                  {{ .Content }}
                 </p>
               </div>
             </div>
